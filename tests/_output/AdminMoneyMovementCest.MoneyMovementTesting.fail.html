@@ -1,0 +1,567 @@
+<html lang="ru-RU"><head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="l-Pp_XQH-7GZ6KXlBtzaX-rQuzaPvAbLaEqFoAwT5PX4haqTDV2U-Ni5xrxDv6MKhKDzZerlM_Mtf7faZlSzoA==">
+			<title>Кабинет администратора мерчантов</title>
+			<link type="image/png" href="/favicon.ico" rel="icon">
+<link href="/assets/25280ee9/css/bootstrap.css?v=1640860636" rel="stylesheet">
+<link href="/assets/f96fa3e8/css/bootstrap-datepicker3.min.css?v=1640861788" rel="stylesheet">
+<link href="/assets/f96fa3e8/css/datepicker-kv.min.css?v=1640861788" rel="stylesheet">
+<link href="/assets/7881fa57/css/kv-widgets.min.css?v=1640860636" rel="stylesheet">
+<link href="/assets/76693676/css/font-awesome.min.css?v=1640860637" rel="stylesheet">
+<link href="/assets/39ec0169/css/text.css?v=1640860645" rel="stylesheet">
+<link href="/assets/39ec0169/css/main.css?v=1640860645" rel="stylesheet">
+<link href="/assets/39ec0169/css/grid-view.css?v=1640860645" rel="stylesheet">
+<link href="/assets/39ec0169/css/align-logout-button.css?v=1640860645" rel="stylesheet">
+<link href="/assets/39ec0169/css/jumbotron.css?v=1640860645" rel="stylesheet">
+<link href="/assets/d774ebb4/styles.css?v=1640860645" rel="stylesheet">
+<link href="/assets/79f28ed2/css/AdminLTE.min.css?v=1640860645" rel="stylesheet">
+<link href="/assets/79f28ed2/css/skins/skin-blue.min.css?v=1640860645" rel="stylesheet">
+<link href="/assets/5a958ab4/css/fixMenu.css?v=1640860645" rel="stylesheet">
+<link href="/css/main.min.css?1590482820" rel="stylesheet">
+<link href="/consultant/build/css/style.min.css?v=1582800832" rel="stylesheet">
+<link href="/assets/5b9bbd10/build/css/intlTelInput.css?v=1640860645" rel="stylesheet">
+<style>
+            html, body, h1, h2, h3, h4, h5, h6
+            {
+                font-family: 'ubuntu';
+            }
+        </style>
+<script async="" src="https://mc.yandex.ru/metrika/tag.js"></script><script>window.kvDatepicker_b0b0db46 = {"todayHighlight":true,"autoclose":true,"format":"yyyy-mm-dd","language":"ru"};
+
+var app = {"env":{"mode":{"env":"dev","debug":false},"url":{"frontend":"https:\/\/cabinet.test.wooppay.com\/","backend":"http:\/\/admin.cabinet\/","api":"http:\/\/api.cabinet\/"}},"api":{"defaultVersion":"v1"}};
+(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(66778639, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true,
+        userParams: {login: "killbill", UserID: 361172}
+    })</script>		</head>
+		<body class="skin-blue sidebar-mini">
+        <span id="go_to_top"></span>
+		
+<div class="wrapper">
+	<header class="main-header">
+		
+<!-- Logo -->
+<a href="/merchant_admin">
+    <!-- mini logo for sidebar mini 50x50 pixels -->
+    <style>
+        .skin-blue .main-header .logo {
+            background-color: #222d32;
+            color: #fff;
+            border-bottom: 0 solid transparent;
+        }
+    </style>
+    <span class="logo-mini"></span>
+    <!-- logo for regular state and mobile devices -->
+    <span>
+		<b>
+			</b></span></a><b><a href="/merchant_admin" class="wpLogoBootstrap"></a>
+			<style>
+				.wpLogoBootstrap{ background: url('/images/logo/logo.svg'); width:200px; height: 40px; position: absolute; display: block; background-size: 200px; left: 12px; top: 5px;     -webkit-transition: -webkit-transform .3s ease-in-out,all .3s ease-in-out;
+					-moz-transition: -moz-transform .3s ease-in-out,all .3s ease-in-out;                -o-transition: -o-transform .3s ease-in-out,all .3s ease-in-out;                transition: transform .3s ease-in-out,all .3s ease-in-out; }
+				.sidebar-collapse .wpLogoBootstrap{background-position: 0 -50px; left: 2px;  top: 11px;}
+				@media (max-width: 767px){
+					.sidebar-open .wpLogoBootstrap{top:56px}
+				}
+			</style>
+        </b>
+	
+
+
+<!-- Header Navbar -->
+<nav class="navbar navbar-static-top" role="navigation">
+    <!-- Sidebar toggle button-->
+    <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+        <span class="sr-only">Toggle navigation</span>
+    </a>
+
+	<!-- Navbar Right Menu -->
+	<div class="navbar-custom-menu">
+		<ul class="nav navbar-nav">
+							<li style="line-height: 50px; color: #fff; padding: 0 20px;">
+					579 557 549.32 тенге				</li>
+				<li class="dropdown user user-menu">
+					<a href="javascript:;" style="background: transparent!important; cursor: default!important;" class="dropdown-toggle" data-toggle="dropdown">
+						<img class="user-image" src="https://static.test.wooppay.com/avatar/11566982593.11139x100.png" alt="Avatar">						<span class="hidden-xs">killbill</span>
+					</a>
+				</li>
+						<!-- User Account Menu -->
+							<li class="dropdown user user-menu">
+					<a class="logout fa fa-power-off" href="/welcome/site/logout" title="Выход" data-method="post" style="background-color:#3c8dbc; border:none"></a>				</li>
+					</ul>
+	</div>
+</nav>	</header>
+
+	<!-- Left side column. contains the logo and sidebar -->
+	<aside class="main-sidebar">
+		<!-- sidebar: style can be found in sidebar.less -->
+		<section class="sidebar">
+			<!-- Sidebar user panel (optional) -->
+						<!-- Sidebar Menu -->
+			<ul class="sidebar-menu"><li class="header">
+Кабинет администратора мерчантов
+</li>
+<li><a href="/merchant_admin/operation/history"><i class="fa fa-history"></i><span class="treeview-menu-item-container">История</span></a></li>
+<li><a href="/merchant_admin/invoice/create"><i class="fa fa-list-alt"></i><span class="treeview-menu-item-container">Ручное выставление счёта</span></a></li>
+<li class="active"><a href="/merchant_admin/operation/money-movement"><i class="fa fa-info-circle"></i><span class="treeview-menu-item-container">Движение средств</span></a></li>
+<li><a href="/merchant_admin/invoice/customize"><i class="fa fa-image"></i><span class="treeview-menu-item-container">Стилизация инвойса</span></a></li>
+<li><a href="/merchant_admin/profile/settings"><i class="fa fa-cog"></i><span class="treeview-menu-item-container">Настройки</span></a></li>
+<li><a href="/#"><i class="fa fa-pie-chart"></i><span class="treeview-menu-item-container">Статистика</span><i class="fa fa-angle-left pull-right"></i></a>
+<ul class="treeview-menu treeview-menu-item-container">
+<li><a href="/#"><i class="fa fa-credit-card"></i><span class="treeview-menu-item-container">Платежи</span><i class="fa fa-angle-left pull-right"></i></a>
+<ul class="treeview-menu treeview-menu-item-container">
+<li><a href="/merchant_admin/payment/chart?type=sales"><i class="fa fa-shopping-cart"></i><span class="treeview-menu-item-container">Продажи</span></a></li>
+<li><a href="/merchant_admin/payment/chart?type=average_receipt"><i class="fa fa-industry"></i><span class="treeview-menu-item-container">Средний чек</span></a></li>
+<li><a href="/merchant_admin/payment/chart?type=conversion"><i class="fa fa-dollar"></i><span class="treeview-menu-item-container">Конверсия</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="/merchant_admin/employee/index"><i class="fa fa-address-card"></i><span class="treeview-menu-item-container">Сотрудники</span></a></li></ul><ul id="question_button" class="sidebar-menu">
+              <li onclick="ym(66778639,'reachGoal','to_ask')">
+                  <a href="#" data-toggle="modal" data-target="#ask_question_modal">
+                      <i class="glyphicon glyphicon-question-sign"></i>
+                      <span class="treeview-menu-item-container">Задать вопрос</span>
+                  </a>
+              </li>
+          </ul>			<!-- /.sidebar-menu -->
+		</section>
+		<!-- /.sidebar -->
+	</aside>
+
+	<div class="content-wrapper" style="min-height: 561px;">
+		<section class="content-header">
+								</section>
+		<section class="content">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="content-header">
+	<h1>Движение денежных средств по кошельку </h1>
+</div>
+
+<div class="content">
+	<div class="box box-primary">
+		<div class="box-header with-border">
+			<h3 class="box-title">Фильтры</h3>
+			<div class="box-tools pull-right">
+				<button class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Свернуть"><i class="fa fa-minus"></i></button>
+			</div>
+		</div>
+		<form class="form-horizontal" action="money-movement" method="get" 0="history-report-form">			<div class="box-body">
+				<div class="col-md-6">
+					<div class="row form-group">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-12 col-md-push-4"><p>Период</p></div>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="control-label" for="dateFrom">С</label>                                <div id="w0-kvdate" class="input-group  date"><input type="text" id="w0" class="form-control krajee-datepicker" name="dateFrom" value="2022-01-24" autocomplete="off" placeholder="гггг-мм-дд" data-datepicker-source="w0-kvdate" data-datepicker-type="3" data-krajee-kvdatepicker="kvDatepicker_b0b0db46"><span class="input-group-addon kv-date-remove" title="Очистить поле"><i class="glyphicon glyphicon-remove kv-dp-icon"></i></span><span class="input-group-addon kv-date-picker" title="Выбрать дату"><i class="glyphicon glyphicon-calendar kv-dp-icon"></i></span></div>                            </div>
+                            <div class="col-md-6">
+                                <label class="control-label" for="dateTo">По</label>                                <div id="w1-kvdate" class="input-group  date"><input type="text" id="w1" class="form-control krajee-datepicker" name="dateTo" value="2022-02-24" autocomplete="off" placeholder="гггг-мм-дд" data-datepicker-source="w1-kvdate" data-datepicker-type="3" data-krajee-kvdatepicker="kvDatepicker_b0b0db46"><span class="input-group-addon kv-date-remove" title="Очистить поле"><i class="glyphicon glyphicon-remove kv-dp-icon"></i></span><span class="input-group-addon kv-date-picker" title="Выбрать дату"><i class="glyphicon glyphicon-calendar kv-dp-icon"></i></span></div>                            </div>
+                        </div>
+					</div>
+				</div>
+
+				<br style="clear:both">
+				<div class="item">
+	<div class="filterlinksLine">
+		<button type="button" id="date-today" class="btn btn-link">За сегодня</button>		<button type="button" id="date-week" class="btn btn-link">За неделю</button>		<button type="button" id="date-month" class="btn btn-link">За месяц</button>	</div>
+</div>
+
+				<div class="col-md-12">
+					<div class="form-group" style="margin-left: 0px">
+												<div class="checkbox">
+							<label>
+								<input type="checkbox" id="selectAllServices" value="1">								<b>Сервисы</b>
+							</label>
+						</div>
+						<div style="margin-left: 25px;"><label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="4565">3month_seasonvar</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1798">Activ</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="954">Activ</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1320">Activ 2</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="364">Activ Cyber </label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="302">Activ Касса</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2000">Activv</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3640">Alseco_Gal</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="304">Altel2 test</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2439">Avon</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3646">Avon_a</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1676">Beeline</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="958">Beeline</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2">Beeline</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2061">Beeline (Россия)</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="5003">BeelineLim</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3644">Beeline_a</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3051">Beeline_bee</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1353">Bek TV test</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="254">CNP</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="4348">CashBack</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1290">Cashback</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2012">Cityy</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="672">Cyber beeline</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1120">Enactus</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1411">Enter</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="252">Epay</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2438">Faberlic</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="630">Fuckbet</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2518">Greenet.kz</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1196">Health and Beauty Lab</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1164">Hiwatch by HIKVISION</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="6196">Izi</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="6067">KTPAY по лицевому счету</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="6043">KTPAY по номеру телефона</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1421">Kcell</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="6763">Kcell</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2877">Kcell_BBC</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1">MTC Россия ДО L</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2441">Mary Kay</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3664">Merch_Boris_invoice</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="962">MеAnvarDischarge</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1009">NoBilling </label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2131">OLIMP</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2545">OTAU TV</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2440">Oriflame</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="6051">Quantum</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2048">SIPNET</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="698">Steam</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1321">TELE 2</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2062">TELE2 (Россия)</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="690">Tele2</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="6576">Test_kassa24</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2051">TourSim</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2143">World Of Tanks</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="316">World Of Warplanes</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="140">World of Tanks</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2140">Zenit</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2899">aaaaaaa</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3666">alseco_boris</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="4629">alseco_gm</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3668">avon_boris</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3647">avon_gal</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="4631">avon_gm</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="5007">avon_l</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3110">beelineWSLD</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3667">beeline_boris</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="4663">beeline_boris Merch_Boris</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3645">beeline_gal</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="4630">beeline_gm</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1387">beeline_uz</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3839">cashback_service</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3287">invoice_test_comission</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="4632">kazakhtelecom_gm</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="5008">kazakhtelecom_l</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3669">kazakhtelecom_phone_boris</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1313">killbill4 invoice</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="6827">leogaming</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="5549">qr_test123</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="5866">test</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3665">test_merch_cashback</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2896">АО «Акбулак»</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1384">Акт</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="216">Актив биллингового мерчанта</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="4349">Актобе </label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2301">Алсеко</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3635">Алсеко An</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="5002">АлсекоЛ</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="956">Алтел 4G:GSM</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1997">Алтел 4G:GSM</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1010">Алтел 4G:GSM</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2465">Апару Такси</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1183">Астана ЕРЦ</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2263">Астана-ЕРЦ</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="85">Астана-ЕРЦ</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="6702">Астанаэнергосбыт</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3147">Атырау</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1338">Бизнес-завтрак "Осознаный бизнес: результат v. процесс"</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1194">Бизнес-завтрак "Осознаный бизнес: результат v. процесс"</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="786">Билайн интернет дома</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="680">Буддизм</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="816">Возврат </label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="218">Второй Актив биллингового мерчанта</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2139">ГОЛ+ПАС</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1090">Гашение</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="770">Гашение евраз</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="240">Гашение на EUBank_01</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="350">Гашение на EmitetntTest</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="360">Гашение на TestTsoy</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="594">Гашение на jayz</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2054">Дальний Восток</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3065">ЕРЦ Капчагай</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2618">Единая транспортная карта</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="844">Единая транспортная карта</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2046">ИВЦ</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="5889">ИП Шаймаганбет Э. Д.</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1011">Инвойс</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="256">Инвойс для epay_invoice_merch</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="248">Инвойс для killbill</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="868">Инвойс лдя киллбилла</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2393">Кабельные Сети Костаная</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="5716">Кабельные Сети Костаная</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="5251">КазАвтоЖол</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3648">Казахтелеком Gal</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3649">Казахтелеком Андира</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1325">Казахтелеком. Оплата по лицевому счету</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1326">Казахтелеком. Оплата по номеру телефона</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2358">КайнарNET</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="28">Колёса.кз</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2060">МТС (Россия)</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2331">Модус KZ. Кокшетау</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2327">Модус KZ. Темиртау</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2055">Москва</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3145">НТВ Плюс</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1260">Новый сервис для проверки дерева категорий</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="6481">ОПЛАТА УСЛУГ МОБИЛЬНОЙ СВЯЗИ FORTEMOBILE</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="250">Обычная безбиллинговая услуга</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3064">Омега XXI г.Шымкент</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="5140">Оплата </label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1351">Оплата заказа</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="602">Оплата личного счета на www.stavkabet.kz</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="6782">Оплата мерчанту </label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1063">Оплата на сайте MerchAnvar.kz</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="5923">Оплата на сайте bestdoctor.kz</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="5924">Оплата на сайте http://t.me/swimresultsbot</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="116">Оплата налогов тестовая</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2543">Оплата паркинга г.Алматы</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2229">Оплата тест мерч</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1682">Оплата штрафов ПДД по ИИН</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2462">Оплатить заказ</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="840">ОҢАЙ</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2289">Перевод через QR</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="976">По лицевому счёту</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2352">По номеру лицевого счета</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1345">По номеру лицевого счета</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2396">По номеру лицевого счета</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1328">По номеру телефона</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2599">По номеру телефона</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2395">По номеру телефона</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2056">Поволжье</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="790">Погашение На капиталбанк</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="6126">Покупка билетов Ботанический Сад Алматы. Сумма оплаты 900 тенге.</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1355">Пополнение кошелька SаlemРау</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1165">Пополнение кошелька Wooppay</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1420">Пополнение кошелька через интернет-банкинг</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1395">Пополнение с карты</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1396">Пополнение с карты Salem</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="628">Пополнение счёта</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2880">Пополнить по email</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2878">Пополнить по номеру счёта</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2879">Пополнить по номеру телефона</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1721">Проверка по бланку/серии</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="992">Проверка полей и тд </label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="232">Продажа денег субагентом ккб (пополнение с карты)</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3082">Проезд Алматы QR</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1105">Прокатиться в скафандре</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1126">Прокатиться на Grendizer</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1121">Просто Космос</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="6030">СК Халык</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2053">Санкт-Петербург</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2290">СараньКоммунСервис</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1985">Света ЕРЦ</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="940">Секторет</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1292">Сервис для проверки комиссий</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2057">Сибирь</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="850">Социальная карта</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2479">Справочная служба «570-570»</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="6572">ТОО "Астанаэнергосбыт" </label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="5488">ТЫ ЧЕ ИГОРЬ</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2397">Телекомпания 43 Канал</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1279">Тестим комиськи</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1654">Тестовая для комсиий</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1443">Тестовая услуга</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="1677">Тестовая услуга 11</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="3146">Триколор ТВ</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2058">Урал</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="6380">Услуга fm на портале</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2306">Усть-Каменогорские тепловые сети</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2253">Фабрика Развлечений: Покупка GXP</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="2059">Центр</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="5552">Энергоуголь XXI</label>
+<label class="checkbox col-md-4" style="font-weight: normal;"><input class="service" type="checkbox" name="services[]" value="5857">ркцу Костанай</label></div>						<input type="hidden" id="exportType" name="export" value="">					</div>
+				</div>
+			</div>
+
+			<div class="box-footer">
+                <button type="submit" class="btn btn-primary" style="margin-left:20px; margin-bottom:20px" onclick="$('#exportType').val(''); ym(66778639,'reachGoal','to_filter_money_move');">Отфильтровать</button>                <button type="submit" class="btn btn-info" style="margin-left:20px; margin-bottom:20px" onclick="$('#exportType').val('excel'); ym(66778639,'reachGoal','download_result');">Выгрузить итог</button>                <button type="submit" class="btn btn-warning" style="margin-left:20px; margin-bottom:20px" onclick="$('#exportType').val('register'); ym(66778639,'reachGoal','form_a_register');">Сформировать реестр</button>			</div>
+		</form>	</div>
+	</div>
+                    <div class="modal fade" id="ask_question_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary">
+                <h3 class="modal-title" id="exampleModalLabel">Обращение</h3>
+            </div>
+            <form id="send_question_form" action="/merchant_admin/profile/send-question" method="post">
+<input type="hidden" name="_csrf-frontend" value="l-Pp_XQH-7GZ6KXlBtzaX-rQuzaPvAbLaEqFoAwT5PX4haqTDV2U-Ni5xrxDv6MKhKDzZerlM_Mtf7faZlSzoA==">
+            <div class="modal-body" id="question_form_container">
+	            <div class="modal-body__messenger-list text-center">
+	<h4>Вы можете связаться с нами в мессенджерах:</h4>
+	<ul class="list-unstyled list-inline padding-top-sm">
+		<li class="list-inline-item"><a target="_blank" href="https://t.me/wooppay_support"><i class="fa fa-telegram fa-3x"></i></a></li>
+		<li class="list-inline-item"><a target="_blank" href="https://wa.me/77710151515"><i class="fa fa-whatsapp fa-3x"></i></a></li>
+	</ul>
+</div>
+<hr>
+<div class="modal-body__contact-list text-center">
+	<h4>По контактам:</h4>
+	<ul class="list-unstyled">
+		<li><a href="mailto:spp@wooppay.com">spp@wooppay.com</a></li>
+	</ul>
+</div>
+
+                <hr>
+                <div class="modal-body__question-form">
+                    <h4 class="text-center">Или заполнить форму:</h4>
+                    <div class="form-group field-handling-name required">
+<label class="control-label" for="handling-name">Имя</label>
+<input type="text" id="handling-name" class="form-control" name="Handling[name]" aria-required="true">
+
+<div class="help-block"></div>
+</div><div class="form-group field-handling-phone required">
+<label class="control-label" style="display:table;" for="handling-phone">Номер телефона</label>
+<div class="iti iti--allow-dropdown iti--separate-dial-code"><div class="iti__flag-container"><div class="iti__selected-flag" role="combobox" aria-owns="country-listbox" aria-expanded="false" tabindex="0" title="Kazakhstan (Казахстан): +7" aria-activedescendant="iti-item-kz"><div class="iti__flag iti__kz"></div><div class="iti__selected-dial-code">+7</div><div class="iti__arrow"></div></div><ul class="iti__country-list iti__hide" id="country-listbox" role="listbox"><li class="iti__country iti__standard iti__active" tabindex="-1" id="iti-item-kz" role="option" data-dial-code="7" data-country-code="kz" aria-selected="true"><div class="iti__flag-box"><div class="iti__flag iti__kz"></div></div><span class="iti__country-name">Kazakhstan (Казахстан)</span><span class="iti__dial-code">+7</span></li><li class="iti__country iti__standard" tabindex="-1" id="iti-item-ru" role="option" data-dial-code="7" data-country-code="ru"><div class="iti__flag-box"><div class="iti__flag iti__ru"></div></div><span class="iti__country-name">Russia (Россия)</span><span class="iti__dial-code">+7</span></li><li class="iti__country iti__standard" tabindex="-1" id="iti-item-tj" role="option" data-dial-code="992" data-country-code="tj"><div class="iti__flag-box"><div class="iti__flag iti__tj"></div></div><span class="iti__country-name">Tajikistan</span><span class="iti__dial-code">+992</span></li><li class="iti__country iti__standard" tabindex="-1" id="iti-item-ua" role="option" data-dial-code="380" data-country-code="ua"><div class="iti__flag-box"><div class="iti__flag iti__ua"></div></div><span class="iti__country-name">Ukraine (Україна)</span><span class="iti__dial-code">+380</span></li><li class="iti__country iti__standard" tabindex="-1" id="iti-item-uz" role="option" data-dial-code="998" data-country-code="uz"><div class="iti__flag-box"><div class="iti__flag iti__uz"></div></div><span class="iti__country-name">Uzbekistan (Oʻzbekiston)</span><span class="iti__dial-code">+998</span></li></ul></div><input type="tel" id="handling-phone" class="form-control" name="Handling[phone]" autocomplete="off" aria-required="true" style="padding-left: 74px;" placeholder="771 000 9998"></div>
+
+<div class="help-block"></div>
+</div><div class="form-group field-handling-message required">
+<label class="control-label" for="handling-message">Текст обращения</label>
+<textarea id="handling-message" class="form-control" name="Handling[message]" style="max-width: 100%;min-width:100%;min-height: 80px;" aria-required="true"></textarea>
+
+<div class="help-block"></div>
+</div><div class="form-group field-handling-login required">
+
+<input type="hidden" id="handling-login" class="form-control" name="Handling[login]" value="killbill">
+
+<div class="help-block"></div>
+</div>                </div>
+            </div>
+            <div class="modal-footer" style="background-color: #fff">
+                <button type="submit" id="question_form_submit_btn" class="btn btn-primary" onclick="ym(66778639,'reachGoal','to_send')">Отправить</button>                <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>            </div>
+            </form>        </div>
+    </div>
+</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer class="main-footer" style="padding-bottom: 30px; padding-top: 10px;">
+		<div class="pull-left">
+    <div class="pull-right hidden-xs"></div>
+	<strong>WOOPPAY © 2012-2022</strong>
+</div>	</footer>
+</div>
+
+<!-- Yandex.Metrika counter -->
+<noscript><div><img src="https://mc.yandex.ru/watch/66778639"; style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script src="/assets/c70855f0/jquery.js?v=1640860636"></script>
+<script src="/assets/bd0905b/yii.js?v=1640860636"></script>
+<script src="/assets/f96fa3e8/js/bootstrap-datepicker.min.js?v=1640861789"></script>
+<script src="/assets/f96fa3e8/js/datepicker-kv.min.js?v=1640861789"></script>
+<script src="/assets/f96fa3e8/js/locales/bootstrap-datepicker.ru.min.js?v=1640861789"></script>
+<script src="/assets/7881fa57/js/kv-widgets.min.js?v=1640860636"></script>
+<script src="/assets/39ec0169/js/function.js?v=1640860645"></script>
+<script src="/assets/39ec0169/js/scripts.js?v=1640860645"></script>
+<script src="/assets/25280ee9/js/bootstrap.js?v=1640860636"></script>
+<script src="/assets/79f28ed2/js/app.min.js?v=1640860645"></script>
+<script src="/assets/5a958ab4/js/sidebarToggle.js?v=1640860645"></script>
+<script src="/assets/bd0905b/yii.validation.js?v=1640860636"></script>
+<script src="/assets/5b9bbd10/build/js/utils.js?v=1640860645"></script>
+<script src="/assets/5b9bbd10/build/js/intlTelInput-jquery.js?v=1640860645"></script>
+<script src="/assets/bd0905b/yii.activeForm.js?v=1640860636"></script>
+<script>jQuery(function ($) {
+jQuery.fn.kvDatepicker.dates={};
+jQuery&&jQuery.pjax&&(jQuery.pjax.defaults.maxCacheLength=0);
+if (jQuery('#w0').data('kvDatepicker')) { jQuery('#w0').kvDatepicker('destroy'); }
+jQuery('#w0-kvdate').kvDatepicker(kvDatepicker_b0b0db46);
+
+initDPRemove('w0');
+initDPAddon('w0');
+if (jQuery('#w1').data('kvDatepicker')) { jQuery('#w1').kvDatepicker('destroy'); }
+jQuery('#w1-kvdate').kvDatepicker(kvDatepicker_b0b0db46);
+
+initDPRemove('w1');
+initDPAddon('w1');
+function dateToday() {
+			var now = new Date();
+			var day = ('0' + now.getDate()).slice(-2);
+			var month = ('0' + (now.getMonth() + 1)).slice(-2);
+			var today = now.getFullYear()+'-'+(month)+'-'+(day);
+			return today;
+		}
+		function days(numberOfDays) {
+			var date = new Date();
+			date.setDate(date.getDate() - numberOfDays);
+			var pastDate = date.toISOString().split('T')[0];
+			return pastDate;
+		}
+	
+		$('#date-today').click(function () {
+			$('#w0').val(dateToday());
+			$('#w1').val(dateToday());
+		});
+		$('#date-week').click(function () {
+			var numberOfDays = 7;
+			$('#w0').val(days(numberOfDays));
+			$('#w1').val(dateToday());
+		});
+		$('#date-month').click(function () {
+			var numberOfDays = 30;
+			$('#w0').val(days(numberOfDays));
+			$('#w1').val(dateToday());
+		});
+$('#selectAllServices').change(function () {
+		$('.service').prop('checked',this.checked?'checked':'');})
+ym(66778639,'reachGoal','money_move')
+var isMobile = /Android.+Mobile|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);   
+        if (isMobile) {
+            $('#question_button').attr('data-toggle', 'offcanvas');
+        }
+(function ($) {
+    "use strict";
+    $('#handling-phone').intlTelInput({"onlyCountries":["kz","ru","uz","ua","tj"],"nationalMode":false,"separateDialCode":true});
+})(jQuery);
+(function ($) {
+    "use strict";
+    $('#handling-phone')
+    .parents('form')
+    .on('submit', function() {
+        $('#handling-phone')
+        .val($('#handling-phone')
+        .intlTelInput('getNumber'));
+    });
+})(jQuery);
+$('#handling-phone').on('input', function() {
+    $(this).val($(this).val().replace(/[A-Za-zА-Яа-яЁё]/, ''))
+});
+jQuery('#send_question_form').yiiActiveForm([{"id":"handling-name","name":"name","container":".field-handling-name","input":"#handling-name","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Необходимо заполнить «Имя»."});yii.validation.string(value, messages, {"message":"Значение «Имя» должно быть строкой.","max":64,"tooLong":"Значение «Имя» должно содержать максимум 64 символа.","skipOnEmpty":1});}},{"id":"handling-phone","name":"phone","container":".field-handling-phone","input":"#handling-phone","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Необходимо заполнить «Номер телефона»."});yii.validation.string(value, messages, {"message":"Значение «Номер телефона» должно быть строкой.","max":64,"tooLong":"Значение «Номер телефона» должно содержать максимум 64 символа.","skipOnEmpty":1});}},{"id":"handling-message","name":"message","container":".field-handling-message","input":"#handling-message","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Необходимо заполнить «Текст обращения»."});yii.validation.string(value, messages, {"message":"Значение «Текст обращения» должно быть строкой.","max":512,"tooLong":"Значение «Текст обращения» должно содержать максимум 512 символов.","skipOnEmpty":1});}},{"id":"handling-login","name":"login","container":".field-handling-login","input":"#handling-login","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Необходимо заполнить «Login»."});yii.validation.string(value, messages, {"message":"Значение «Login» должно быть строкой.","max":64,"tooLong":"Значение «Login» должно содержать максимум 64 символа.","skipOnEmpty":1});}}], []);
+$('#send_question_form').on('beforeSubmit', function() {
+                var data = $('#send_question_form').serialize();
+                $.ajax({
+                    url: $('#send_question_form').attr('action'),
+                    type: 'POST',
+                    data: data,
+                    success: function (data) {
+                        $('.sending-status').remove();
+                        if (data.success) {
+                            $('#send_question_form').trigger('reset');                        
+                            $('#question_form_container').append('<h4 class="bg-success text-center sending-status">'+ data.message +'</h4>');                            
+                        } else {                            
+                            $('#question_form_container').append('<h4 class="bg-danger text-center sending-status" style="word-break: break-word">'+ data.message +'</h4>');
+                        }
+                    },
+                    error: function(jqXHR, errMsg) {                        
+                        alert(errMsg);
+                    }
+                 });
+                 return false; // prevent default submit
+            });
+});</script>		
+		
+		</body></html>

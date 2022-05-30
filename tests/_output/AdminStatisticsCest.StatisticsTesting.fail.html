@@ -1,0 +1,428 @@
+<html lang="ru-RU"><head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="DcQQtAnSprwV2Sg4BtLsni1nZrDkrNtxfeSCyjE0xTRFvVryVr_x8WbgQHRC4JvWci8g3qqUizgip9CZQ3DwXg==">
+			<title>Кабинет администратора мерчантов</title>
+			<link type="image/png" href="/favicon.ico" rel="icon">
+<link href="/assets/25280ee9/css/bootstrap.css?v=1640860636" rel="stylesheet">
+<link href="/assets/f96fa3e8/css/bootstrap-datepicker3.min.css?v=1640861788" rel="stylesheet">
+<link href="/assets/f96fa3e8/css/datepicker-kv.min.css?v=1640861788" rel="stylesheet">
+<link href="/assets/7881fa57/css/kv-widgets.min.css?v=1640860636" rel="stylesheet">
+<link href="/assets/76693676/css/font-awesome.min.css?v=1640860637" rel="stylesheet">
+<link href="/assets/39ec0169/css/text.css?v=1640860645" rel="stylesheet">
+<link href="/assets/39ec0169/css/main.css?v=1640860645" rel="stylesheet">
+<link href="/assets/39ec0169/css/grid-view.css?v=1640860645" rel="stylesheet">
+<link href="/assets/39ec0169/css/align-logout-button.css?v=1640860645" rel="stylesheet">
+<link href="/assets/39ec0169/css/jumbotron.css?v=1640860645" rel="stylesheet">
+<link href="/assets/d774ebb4/styles.css?v=1640860645" rel="stylesheet">
+<link href="/assets/79f28ed2/css/AdminLTE.min.css?v=1640860645" rel="stylesheet">
+<link href="/assets/79f28ed2/css/skins/skin-blue.min.css?v=1640860645" rel="stylesheet">
+<link href="/assets/5a958ab4/css/fixMenu.css?v=1640860645" rel="stylesheet">
+<link href="/css/main.min.css?1590482820" rel="stylesheet">
+<link href="/consultant/build/css/style.min.css?v=1582800832" rel="stylesheet">
+<link href="/assets/5b9bbd10/build/css/intlTelInput.css?v=1640860645" rel="stylesheet">
+<style>
+            html, body, h1, h2, h3, h4, h5, h6
+            {
+                font-family: 'ubuntu';
+            }
+        </style>
+<script async="" src="https://mc.yandex.ru/metrika/tag.js"></script><script src="https://www.google.com/jsapi"></script>
+<script>window.kvDatepicker_ae17d52f = {"format":"yyyy-mm-dd","todayHighlight":true,"language":"ru","orientation":"bottom","weekStart":1,"endDate":"0d"};
+
+google.load("visualization", "1", {packages:["corechart"]});
+
+			google.setOnLoadCallback(drawChartw0);
+			var w0=null;
+			function drawChartw0() {
+				var data = google.visualization.arrayToDataTable([["Период","Сумма"],[2019,39502784],[2020,25004455],[2021,2005145]]);
+
+				
+
+				var options = {"title":"Продажи","height":350};
+
+				w0 = new google.visualization.LineChart(document.getElementById("div-chartw0"));
+				w0.draw(data, options);
+			}
+var app = {"env":{"mode":{"env":"dev","debug":false},"url":{"frontend":"https:\/\/cabinet.test.wooppay.com\/","backend":"http:\/\/admin.cabinet\/","api":"http:\/\/api.cabinet\/"}},"api":{"defaultVersion":"v1"}};
+(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(66778639, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true,
+        userParams: {login: "killbill", UserID: 361172}
+    })</script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/loader.js"></script>		<link id="load-css-0" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/51/css/core/tooltip.css"><link id="load-css-1" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/51/css/util/util.css"><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/js/jsapi_compiled_default_module.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/js/jsapi_compiled_graphics_module.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/js/jsapi_compiled_ui_module.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/51/js/jsapi_compiled_corechart_module.js"></script></head>
+		<body class="skin-blue sidebar-mini">
+        <span id="go_to_top"></span>
+		
+<div class="wrapper">
+	<header class="main-header">
+		
+<!-- Logo -->
+<a href="/merchant_admin">
+    <!-- mini logo for sidebar mini 50x50 pixels -->
+    <style>
+        .skin-blue .main-header .logo {
+            background-color: #222d32;
+            color: #fff;
+            border-bottom: 0 solid transparent;
+        }
+    </style>
+    <span class="logo-mini"></span>
+    <!-- logo for regular state and mobile devices -->
+    <span>
+		<b>
+			</b></span></a><b><a href="/merchant_admin" class="wpLogoBootstrap"></a>
+			<style>
+				.wpLogoBootstrap{ background: url('/images/logo/logo.svg'); width:200px; height: 40px; position: absolute; display: block; background-size: 200px; left: 12px; top: 5px;     -webkit-transition: -webkit-transform .3s ease-in-out,all .3s ease-in-out;
+					-moz-transition: -moz-transform .3s ease-in-out,all .3s ease-in-out;                -o-transition: -o-transform .3s ease-in-out,all .3s ease-in-out;                transition: transform .3s ease-in-out,all .3s ease-in-out; }
+				.sidebar-collapse .wpLogoBootstrap{background-position: 0 -50px; left: 2px;  top: 11px;}
+				@media (max-width: 767px){
+					.sidebar-open .wpLogoBootstrap{top:56px}
+				}
+			</style>
+        </b>
+	
+
+
+<!-- Header Navbar -->
+<nav class="navbar navbar-static-top" role="navigation">
+    <!-- Sidebar toggle button-->
+    <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+        <span class="sr-only">Toggle navigation</span>
+    </a>
+
+	<!-- Navbar Right Menu -->
+	<div class="navbar-custom-menu">
+		<ul class="nav navbar-nav">
+							<li style="line-height: 50px; color: #fff; padding: 0 20px;">
+					579 558 315.32 тенге				</li>
+				<li class="dropdown user user-menu">
+					<a href="javascript:;" style="background: transparent!important; cursor: default!important;" class="dropdown-toggle" data-toggle="dropdown">
+						<img class="user-image" src="https://static.test.wooppay.com/avatar/killbill02252022.4394x100.png" alt="Avatar">						<span class="hidden-xs">killbill</span>
+					</a>
+				</li>
+						<!-- User Account Menu -->
+							<li class="dropdown user user-menu">
+					<a class="logout fa fa-power-off" href="/welcome/site/logout" title="Выход" data-method="post" style="background-color:#3c8dbc; border:none"></a>				</li>
+					</ul>
+	</div>
+</nav>	</header>
+
+	<!-- Left side column. contains the logo and sidebar -->
+	<aside class="main-sidebar">
+		<!-- sidebar: style can be found in sidebar.less -->
+		<section class="sidebar">
+			<!-- Sidebar user panel (optional) -->
+						<!-- Sidebar Menu -->
+			<ul class="sidebar-menu"><li class="header">
+Кабинет администратора мерчантов
+</li>
+<li><a href="/merchant_admin/operation/history"><i class="fa fa-history"></i><span class="treeview-menu-item-container">История</span></a></li>
+<li><a href="/merchant_admin/invoice/create"><i class="fa fa-list-alt"></i><span class="treeview-menu-item-container">Ручное выставление счёта</span></a></li>
+<li><a href="/merchant_admin/operation/money-movement"><i class="fa fa-info-circle"></i><span class="treeview-menu-item-container">Движение средств</span></a></li>
+<li><a href="/merchant_admin/invoice/customize"><i class="fa fa-image"></i><span class="treeview-menu-item-container">Стилизация инвойса</span></a></li>
+<li><a href="/merchant_admin/profile/settings"><i class="fa fa-cog"></i><span class="treeview-menu-item-container">Настройки</span></a></li>
+<li class="active"><a href="/#"><i class="fa fa-pie-chart"></i><span class="treeview-menu-item-container">Статистика</span><i class="fa fa-angle-left pull-right"></i></a>
+<ul class="treeview-menu treeview-menu-item-container">
+<li class="active"><a href="/#"><i class="fa fa-credit-card"></i><span class="treeview-menu-item-container">Платежи</span><i class="fa fa-angle-left pull-right"></i></a>
+<ul class="treeview-menu treeview-menu-item-container">
+<li class="active"><a href="/merchant_admin/payment/chart?type=sales"><i class="fa fa-shopping-cart"></i><span class="treeview-menu-item-container">Продажи</span></a></li>
+<li><a href="/merchant_admin/payment/chart?type=average_receipt"><i class="fa fa-industry"></i><span class="treeview-menu-item-container">Средний чек</span></a></li>
+<li><a href="/merchant_admin/payment/chart?type=conversion"><i class="fa fa-dollar"></i><span class="treeview-menu-item-container">Конверсия</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="/merchant_admin/employee/index"><i class="fa fa-address-card"></i><span class="treeview-menu-item-container">Сотрудники</span></a></li></ul><ul id="question_button" class="sidebar-menu">
+              <li onclick="ym(66778639,'reachGoal','to_ask')">
+                  <a href="#" data-toggle="modal" data-target="#ask_question_modal">
+                      <i class="glyphicon glyphicon-question-sign"></i>
+                      <span class="treeview-menu-item-container">Задать вопрос</span>
+                  </a>
+              </li>
+          </ul>			<!-- /.sidebar-menu -->
+		</section>
+		<!-- /.sidebar -->
+	</aside>
+
+	<div class="content-wrapper" style="min-height: 561px;">
+		<section class="content-header">
+								</section>
+		<section class="content">
+			<div class="row">
+				<div class="col-md-12">
+					    <div class="content-header">
+        <h1>Графики</h1>
+    </div>
+
+    <div class="content">
+        <div class="box box-primary">
+            <div class="box-header with-border">
+                <h3 class="box-title">Фильтры</h3>
+                <div class="box-tools pull-right">
+                    <button class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Свернуть"><i class="fa fa-minus"></i></button>
+                </div>
+            </div>
+
+			<form id="sales-form" action="/merchant_admin/payment/chart?type=sales" method="post">
+<input type="hidden" name="_csrf-frontend" value="DcQQtAnSprwV2Sg4BtLsni1nZrDkrNtxfeSCyjE0xTRFvVryVr_x8WbgQHRC4JvWci8g3qqUizgip9CZQ3DwXg==">            <div class="box-body">
+                <div class="col-md-6">
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-12 col-md-push-4">
+                                    <p>Период</p></div>
+                            </div>
+                            <div class="col-md-6">
+								<div class="form-group field-reportform-datefrom required">
+<label class="control-label" for="reportform-datefrom">С</label>
+<div id="reportform-datefrom-kvdate" class="input-group  date"><input type="text" id="reportform-datefrom" class="form-control krajee-datepicker" name="ReportForm[dateFrom]" value="2019-01-01" placeholder="гггг-мм-дд" autocomplete="off" aria-required="true" data-datepicker-source="reportform-datefrom-kvdate" data-datepicker-type="3" data-krajee-kvdatepicker="kvDatepicker_ae17d52f" width="70%"><span class="input-group-addon kv-date-remove" title="Очистить поле"><i class="glyphicon glyphicon-remove kv-dp-icon"></i></span><span class="input-group-addon kv-date-picker" title="Выбрать дату"><i class="glyphicon glyphicon-calendar kv-dp-icon"></i></span></div>
+
+<div class="help-block"></div>
+</div>                            </div>
+                            <div class="col-md-6">
+								<div class="form-group field-reportform-dateto required">
+<label class="control-label" for="reportform-dateto">По</label>
+<div id="reportform-dateto-kvdate" class="input-group  date"><input type="text" id="reportform-dateto" class="form-control krajee-datepicker" name="ReportForm[dateTo]" value="2022-02-25" placeholder="гггг-мм-дд" autocomplete="off" aria-required="true" data-datepicker-source="reportform-dateto-kvdate" data-datepicker-type="3" data-krajee-kvdatepicker="kvDatepicker_ae17d52f" width="70%"><span class="input-group-addon kv-date-remove" title="Очистить поле"><i class="glyphicon glyphicon-remove kv-dp-icon"></i></span><span class="input-group-addon kv-date-picker" title="Выбрать дату"><i class="glyphicon glyphicon-calendar kv-dp-icon"></i></span></div>
+
+<div class="help-block"></div>
+</div>                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br style="clear:both">
+
+                <div class="col-md-12">
+                    <div class="form-group" style="margin-left: 0">
+                        <div class="col-md-6">
+							<div class="form-group field-reportform-grouping required">
+<label class="control-label" for="reportform-grouping">Группировать по дате</label>
+<select id="reportform-grouping" class="form-control" name="ReportForm[grouping]" aria-required="true">
+<option value="day">День</option>
+<option value="week">Неделя</option>
+<option value="month">Месяц</option>
+<option value="year" selected="">Год</option>
+</select>
+
+<div class="help-block"></div>
+</div>                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group" style="margin-left: 0">
+                        <div class="col-md-6">
+							<div class="form-group field-reportform-charttype required">
+<label class="control-label" for="reportform-charttype">Тип графика</label>
+<select id="reportform-charttype" class="form-control" name="ReportForm[chartType]" aria-required="true">
+<option value="sales" selected="">Продажи</option>
+<option value="average_receipt">Средний чек</option>
+<option value="conversion">Конверсия</option>
+</select>
+
+<div class="help-block"></div>
+</div>                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group" style="margin-left: 0">
+                        <div class="checkbox">
+                            <label>
+								<input type="checkbox" id="selectAllOperationTypes" value="1" title="выбрать все">                                <b>Типы оплаты</b>
+                            </label>
+                        </div>
+						<div class="form-group field-reportform-operationtype required">
+
+<input type="hidden" name="ReportForm[operationType]" value=""><div id="reportform-operationtype" style="margin-left:1%" aria-required="true"><label class="checkbox col-md-6" style="font-weight: normal;"><input class="status" type="checkbox" name="ReportForm[operationType][]" value="304">Оплата счета</label>
+<label class="checkbox col-md-6" style="font-weight: normal;"><input class="status" type="checkbox" name="ReportForm[operationType][]" value="334">Оплата счета по WSDL</label>
+<label class="checkbox col-md-6" style="font-weight: normal;"><input class="status" type="checkbox" name="ReportForm[operationType][]" value="344">Оплата с помощью СМС</label>
+<label class="checkbox col-md-6" style="font-weight: normal;"><input class="status" type="checkbox" name="ReportForm[operationType][]" value="330">Платеж по WSDL</label>
+<label class="checkbox col-md-6" style="font-weight: normal;"><input class="status" type="checkbox" checked="" name="ReportForm[operationType][]" value="300">Платеж</label></div>
+
+<div class="help-block"></div>
+</div>                    </div>
+                </div>
+                <div style="clear: both"></div>
+            </div>
+
+            <div class="box-footer">
+                <div class="form-group">
+					<button type="submit" id="filterHistory" class="btn btn-primary" style="margin-left:20px" onclick="$('#exportType').val(''); ym(66778639,'reachGoal','show_chart');">Показать график</button>                </div>
+            </div>
+			</form>        </div>
+
+		            <div class="box box-info">
+                <div class="box-header with-border">
+                    <h3 class="box-title">График продаж</h3>
+                    <div class="box-tools pull-right">
+                        <button class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Свернуть"><i class="fa fa-minus"></i></button>
+                    </div>
+                </div>
+                <div class="box-body">
+					<div class="row" style="overflow: auto; height: max-content; width: 95%; margin-left: 15px">
+	<div id="div-chartw0"><div style="position: relative;"><div style="position: relative; width: 963px; height: 350px;" dir="ltr"><div style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;" aria-label="A chart."><svg width="963" height="350" style="overflow: hidden;" aria-label="A chart."><defs id="_ABSTRACT_RENDERER_ID_0"><clipPath id="_ABSTRACT_RENDERER_ID_1"><rect x="134" y="67" width="696" height="216"></rect></clipPath></defs><rect x="0" y="0" width="963" height="350" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><text text-anchor="start" x="134" y="41.9" font-family="Arial" font-size="14" font-weight="bold" stroke="none" stroke-width="0" fill="#000000">Продажи</text><rect x="134" y="30" width="696" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect></g><g><rect x="844" y="67" width="105" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><rect x="844" y="67" width="105" height="14" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g><text text-anchor="start" x="877" y="78.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#222222">Сумма</text></g><path d="M844,74L872,74" stroke="#3366cc" stroke-width="2" fill-opacity="1" fill="none"></path></g></g><g><rect x="134" y="67" width="696" height="216" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g clip-path="url(https://cabinet.test.wooppay.com/merchant_admin/payment/chart?type=sales#_ABSTRACT_RENDERER_ID_1)"><g><rect x="134" y="67" width="1" height="216" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="221" y="67" width="1" height="216" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="308" y="67" width="1" height="216" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="395" y="67" width="1" height="216" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="482" y="67" width="1" height="216" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="568" y="67" width="1" height="216" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="655" y="67" width="1" height="216" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="742" y="67" width="1" height="216" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="829" y="67" width="1" height="216" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="134" y="282" width="696" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="134" y="228" width="696" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="134" y="175" width="696" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="134" y="121" width="696" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="134" y="67" width="696" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="134" y="255" width="696" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="134" y="201" width="696" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="134" y="148" width="696" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="134" y="94" width="696" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect></g><g><rect x="134" y="282" width="696" height="1" stroke="none" stroke-width="0" fill="#333333"></rect></g><g><path d="M134.5,70.17253599999998L482,148.101054375L829.5,271.722345625" stroke="#3366cc" stroke-width="2" fill-opacity="1" fill="none"></path></g></g><g></g><g><g><text text-anchor="middle" x="134.5" y="303.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">2,019.00</text></g><g><text text-anchor="middle" x="221.375" y="303.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">2,019.25</text></g><g><text text-anchor="middle" x="308.25" y="303.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">2,019.50</text></g><g><text text-anchor="middle" x="395.125" y="303.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">2,019.75</text></g><g><text text-anchor="middle" x="482" y="303.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">2,020.00</text></g><g><text text-anchor="middle" x="568.875" y="303.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">2,020.25</text></g><g><text text-anchor="middle" x="655.75" y="303.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">2,020.50</text></g><g><text text-anchor="middle" x="742.625" y="303.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">2,020.75</text></g><g><text text-anchor="middle" x="829.5" y="303.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">2,021.00</text></g><g><text text-anchor="end" x="120" y="287.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">0</text></g><g><text text-anchor="end" x="120" y="233.65" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">10,000,000</text></g><g><text text-anchor="end" x="120" y="179.9" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">20,000,000</text></g><g><text text-anchor="end" x="120" y="126.15" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">30,000,000</text></g><g><text text-anchor="end" x="120" y="72.4" font-family="Arial" font-size="14" stroke="none" stroke-width="0" fill="#444444">40,000,000</text></g></g></g><g></g></svg><div aria-label="A tabular representation of the data in the chart." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>Период</th><th>Сумма</th></tr></thead><tbody><tr><td>2,019</td><td>39,502,784</td></tr><tr><td>2,020</td><td>25,004,455</td></tr><tr><td>2,021</td><td>2,005,145</td></tr></tbody></table></div></div></div><div style="display: none; position: absolute; top: 360px; left: 973px; white-space: nowrap; font-family: Arial; font-size: 14px;" aria-hidden="true">Сумма</div><div></div></div></div></div>                </div>
+            </div>
+		    </div>
+                    <div class="modal fade" id="ask_question_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary">
+                <h3 class="modal-title" id="exampleModalLabel">Обращение</h3>
+            </div>
+            <form id="send_question_form" action="/merchant_admin/profile/send-question" method="post">
+<input type="hidden" name="_csrf-frontend" value="DcQQtAnSprwV2Sg4BtLsni1nZrDkrNtxfeSCyjE0xTRFvVryVr_x8WbgQHRC4JvWci8g3qqUizgip9CZQ3DwXg==">
+            <div class="modal-body" id="question_form_container">
+	            <div class="modal-body__messenger-list text-center">
+	<h4>Вы можете связаться с нами в мессенджерах:</h4>
+	<ul class="list-unstyled list-inline padding-top-sm">
+		<li class="list-inline-item"><a target="_blank" href="https://t.me/wooppay_support"><i class="fa fa-telegram fa-3x"></i></a></li>
+		<li class="list-inline-item"><a target="_blank" href="https://wa.me/77710151515"><i class="fa fa-whatsapp fa-3x"></i></a></li>
+	</ul>
+</div>
+<hr>
+<div class="modal-body__contact-list text-center">
+	<h4>По контактам:</h4>
+	<ul class="list-unstyled">
+		<li><a href="mailto:spp@wooppay.com">spp@wooppay.com</a></li>
+	</ul>
+</div>
+
+                <hr>
+                <div class="modal-body__question-form">
+                    <h4 class="text-center">Или заполнить форму:</h4>
+                    <div class="form-group field-handling-name required">
+<label class="control-label" for="handling-name">Имя</label>
+<input type="text" id="handling-name" class="form-control" name="Handling[name]" aria-required="true">
+
+<div class="help-block"></div>
+</div><div class="form-group field-handling-phone required">
+<label class="control-label" style="display:table;" for="handling-phone">Номер телефона</label>
+<div class="iti iti--allow-dropdown iti--separate-dial-code"><div class="iti__flag-container"><div class="iti__selected-flag" role="combobox" aria-owns="country-listbox" aria-expanded="false" tabindex="0" title="Kazakhstan (Казахстан): +7" aria-activedescendant="iti-item-kz"><div class="iti__flag iti__kz"></div><div class="iti__selected-dial-code">+7</div><div class="iti__arrow"></div></div><ul class="iti__country-list iti__hide" id="country-listbox" role="listbox"><li class="iti__country iti__standard iti__active" tabindex="-1" id="iti-item-kz" role="option" data-dial-code="7" data-country-code="kz" aria-selected="true"><div class="iti__flag-box"><div class="iti__flag iti__kz"></div></div><span class="iti__country-name">Kazakhstan (Казахстан)</span><span class="iti__dial-code">+7</span></li><li class="iti__country iti__standard" tabindex="-1" id="iti-item-ru" role="option" data-dial-code="7" data-country-code="ru"><div class="iti__flag-box"><div class="iti__flag iti__ru"></div></div><span class="iti__country-name">Russia (Россия)</span><span class="iti__dial-code">+7</span></li><li class="iti__country iti__standard" tabindex="-1" id="iti-item-tj" role="option" data-dial-code="992" data-country-code="tj"><div class="iti__flag-box"><div class="iti__flag iti__tj"></div></div><span class="iti__country-name">Tajikistan</span><span class="iti__dial-code">+992</span></li><li class="iti__country iti__standard" tabindex="-1" id="iti-item-ua" role="option" data-dial-code="380" data-country-code="ua"><div class="iti__flag-box"><div class="iti__flag iti__ua"></div></div><span class="iti__country-name">Ukraine (Україна)</span><span class="iti__dial-code">+380</span></li><li class="iti__country iti__standard" tabindex="-1" id="iti-item-uz" role="option" data-dial-code="998" data-country-code="uz"><div class="iti__flag-box"><div class="iti__flag iti__uz"></div></div><span class="iti__country-name">Uzbekistan (Oʻzbekiston)</span><span class="iti__dial-code">+998</span></li></ul></div><input type="tel" id="handling-phone" class="form-control" name="Handling[phone]" autocomplete="off" aria-required="true" style="padding-left: 74px;" placeholder="771 000 9998"></div>
+
+<div class="help-block"></div>
+</div><div class="form-group field-handling-message required">
+<label class="control-label" for="handling-message">Текст обращения</label>
+<textarea id="handling-message" class="form-control" name="Handling[message]" style="max-width: 100%;min-width:100%;min-height: 80px;" aria-required="true"></textarea>
+
+<div class="help-block"></div>
+</div><div class="form-group field-handling-login required">
+
+<input type="hidden" id="handling-login" class="form-control" name="Handling[login]" value="killbill">
+
+<div class="help-block"></div>
+</div>                </div>
+            </div>
+            <div class="modal-footer" style="background-color: #fff">
+                <button type="submit" id="question_form_submit_btn" class="btn btn-primary" onclick="ym(66778639,'reachGoal','to_send')">Отправить</button>                <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>            </div>
+            </form>        </div>
+    </div>
+</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer class="main-footer" style="padding-bottom: 30px; padding-top: 10px;">
+		<div class="pull-left">
+    <div class="pull-right hidden-xs"></div>
+	<strong>WOOPPAY © 2012-2022</strong>
+</div>	</footer>
+</div>
+
+<!-- Yandex.Metrika counter -->
+<noscript><div><img src="https://mc.yandex.ru/watch/66778639"; style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script src="/assets/c70855f0/jquery.js?v=1640860636"></script>
+<script src="/assets/bd0905b/yii.js?v=1640860636"></script>
+<script src="/assets/f96fa3e8/js/bootstrap-datepicker.min.js?v=1640861789"></script>
+<script src="/assets/f96fa3e8/js/datepicker-kv.min.js?v=1640861789"></script>
+<script src="/assets/f96fa3e8/js/locales/bootstrap-datepicker.ru.min.js?v=1640861789"></script>
+<script src="/assets/7881fa57/js/kv-widgets.min.js?v=1640860636"></script>
+<script src="/assets/bd0905b/yii.validation.js?v=1640860636"></script>
+<script src="/assets/bd0905b/yii.activeForm.js?v=1640860636"></script>
+<script src="/assets/39ec0169/js/function.js?v=1640860645"></script>
+<script src="/assets/39ec0169/js/scripts.js?v=1640860645"></script>
+<script src="/assets/25280ee9/js/bootstrap.js?v=1640860636"></script>
+<script src="/assets/79f28ed2/js/app.min.js?v=1640860645"></script>
+<script src="/assets/5a958ab4/js/sidebarToggle.js?v=1640860645"></script>
+<script src="/assets/5b9bbd10/build/js/utils.js?v=1640860645"></script>
+<script src="/assets/5b9bbd10/build/js/intlTelInput-jquery.js?v=1640860645"></script>
+<script>jQuery(function ($) {
+jQuery.fn.kvDatepicker.dates={};
+jQuery&&jQuery.pjax&&(jQuery.pjax.defaults.maxCacheLength=0);
+if (jQuery('#reportform-datefrom').data('kvDatepicker')) { jQuery('#reportform-datefrom').kvDatepicker('destroy'); }
+jQuery('#reportform-datefrom-kvdate').kvDatepicker(kvDatepicker_ae17d52f);
+
+initDPRemove('reportform-datefrom');
+initDPAddon('reportform-datefrom');
+if (jQuery('#reportform-dateto').data('kvDatepicker')) { jQuery('#reportform-dateto').kvDatepicker('destroy'); }
+jQuery('#reportform-dateto-kvdate').kvDatepicker(kvDatepicker_ae17d52f);
+
+initDPRemove('reportform-dateto');
+initDPAddon('reportform-dateto');
+jQuery('#sales-form').yiiActiveForm([{"id":"reportform-datefrom","name":"dateFrom","container":".field-reportform-datefrom","input":"#reportform-datefrom","validate":function (attribute, value, messages, deferred, $form) {            dateTo = Date.parse($('#reportform-dateto').val());
+            dateFrom = Date.parse($('#reportform-datefrom').val());
+            if (dateFrom < dateTo) {
+            messages.pop();
+            $( "#reportform-dateto" ).trigger( "blur" );
+      }yii.validation.required(value, messages, {"message":"Укажите дату"});}},{"id":"reportform-dateto","name":"dateTo","container":".field-reportform-dateto","input":"#reportform-dateto","validate":function (attribute, value, messages, deferred, $form) {            dateTo = Date.parse($('#reportform-dateto').val());
+            dateFrom = Date.parse($('#reportform-datefrom').val());
+        	if (dateFrom > dateTo) {
+           	messages.push('Некорректный ввод даты');
+      }yii.validation.required(value, messages, {"message":"Укажите дату"});}},{"id":"reportform-grouping","name":"grouping","container":".field-reportform-grouping","input":"#reportform-grouping","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Необходимо заполнить «Группировать по дате»."});yii.validation.string(value, messages, {"message":"Значение «Группировать по дате» должно быть строкой.","max":256,"tooLong":"Значение «Группировать по дате» должно содержать максимум 256 символов.","skipOnEmpty":1});}},{"id":"reportform-charttype","name":"chartType","container":".field-reportform-charttype","input":"#reportform-charttype","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Необходимо заполнить «Тип графика»."});yii.validation.string(value, messages, {"message":"Значение «Тип графика» должно быть строкой.","max":256,"tooLong":"Значение «Тип графика» должно содержать максимум 256 символов.","skipOnEmpty":1});}},{"id":"reportform-operationtype","name":"operationType","container":".field-reportform-operationtype","input":"#reportform-operationtype","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Необходимо заполнить «Тип операции»."});}}], []);
+$('#selectAllOperationTypes').change(function () {
+            $('.status').prop('checked',this.checked?'checked':'');
+        })
+ym(66778639,'reachGoal','chart')
+var isMobile = /Android.+Mobile|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);   
+        if (isMobile) {
+            $('#question_button').attr('data-toggle', 'offcanvas');
+        }
+(function ($) {
+    "use strict";
+    $('#handling-phone').intlTelInput({"onlyCountries":["kz","ru","uz","ua","tj"],"nationalMode":false,"separateDialCode":true});
+})(jQuery);
+(function ($) {
+    "use strict";
+    $('#handling-phone')
+    .parents('form')
+    .on('submit', function() {
+        $('#handling-phone')
+        .val($('#handling-phone')
+        .intlTelInput('getNumber'));
+    });
+})(jQuery);
+$('#handling-phone').on('input', function() {
+    $(this).val($(this).val().replace(/[A-Za-zА-Яа-яЁё]/, ''))
+});
+jQuery('#send_question_form').yiiActiveForm([{"id":"handling-name","name":"name","container":".field-handling-name","input":"#handling-name","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Необходимо заполнить «Имя»."});yii.validation.string(value, messages, {"message":"Значение «Имя» должно быть строкой.","max":64,"tooLong":"Значение «Имя» должно содержать максимум 64 символа.","skipOnEmpty":1});}},{"id":"handling-phone","name":"phone","container":".field-handling-phone","input":"#handling-phone","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Необходимо заполнить «Номер телефона»."});yii.validation.string(value, messages, {"message":"Значение «Номер телефона» должно быть строкой.","max":64,"tooLong":"Значение «Номер телефона» должно содержать максимум 64 символа.","skipOnEmpty":1});}},{"id":"handling-message","name":"message","container":".field-handling-message","input":"#handling-message","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Необходимо заполнить «Текст обращения»."});yii.validation.string(value, messages, {"message":"Значение «Текст обращения» должно быть строкой.","max":512,"tooLong":"Значение «Текст обращения» должно содержать максимум 512 символов.","skipOnEmpty":1});}},{"id":"handling-login","name":"login","container":".field-handling-login","input":"#handling-login","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Необходимо заполнить «Login»."});yii.validation.string(value, messages, {"message":"Значение «Login» должно быть строкой.","max":64,"tooLong":"Значение «Login» должно содержать максимум 64 символа.","skipOnEmpty":1});}}], []);
+$('#send_question_form').on('beforeSubmit', function() {
+                var data = $('#send_question_form').serialize();
+                $.ajax({
+                    url: $('#send_question_form').attr('action'),
+                    type: 'POST',
+                    data: data,
+                    success: function (data) {
+                        $('.sending-status').remove();
+                        if (data.success) {
+                            $('#send_question_form').trigger('reset');                        
+                            $('#question_form_container').append('<h4 class="bg-success text-center sending-status">'+ data.message +'</h4>');                            
+                        } else {                            
+                            $('#question_form_container').append('<h4 class="bg-danger text-center sending-status" style="word-break: break-word">'+ data.message +'</h4>');
+                        }
+                    },
+                    error: function(jqXHR, errMsg) {                        
+                        alert(errMsg);
+                    }
+                 });
+                 return false; // prevent default submit
+            });
+});</script>		
+		
+		</body></html>

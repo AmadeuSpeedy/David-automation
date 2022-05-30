@@ -1,0 +1,7 @@
+actor: ApiTester
+modules:
+    enabled:
+        - REST:
+              url: 'https://api.yii2-stage.test.wooppay.com/v1'
+              depends: PhpBrowser
+              part: Json

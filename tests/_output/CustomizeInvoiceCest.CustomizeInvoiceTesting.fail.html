@@ -1,0 +1,687 @@
+<html lang="ru-RU"><head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="lwIsTvdQeXtKiQvKMynuzO3Yx_F6pEZYECKWJqWuO5T7NRUDngkOKjv4VP1gX7aj2ui3gA7KLhMoePJH1NkWwA==">
+			<title>Кабинет администратора мерчантов</title>
+			<link type="image/png" href="/favicon.ico" rel="icon">
+<link href="/assets/25280ee9/css/bootstrap.css?v=1640860636" rel="stylesheet">
+<link href="/assets/42e41e00/css/dependent-dropdown.min.css?v=1640863997" rel="stylesheet">
+<link href="/assets/7881fa57/css/kv-widgets.min.css?v=1640860636" rel="stylesheet">
+<link href="/assets/7881fa57/css/html5input.min.css?v=1640860636" rel="stylesheet">
+<link href="/assets/91fe4f70/css/spectrum.min.css?v=1641358495" rel="stylesheet">
+<link href="/assets/91fe4f70/css/spectrum-kv.min.css?v=1641358495" rel="stylesheet">
+<link href="/assets/76693676/css/font-awesome.min.css?v=1640860637" rel="stylesheet">
+<link href="/assets/39ec0169/css/text.css?v=1640860645" rel="stylesheet">
+<link href="/assets/39ec0169/css/main.css?v=1640860645" rel="stylesheet">
+<link href="/assets/39ec0169/css/grid-view.css?v=1640860645" rel="stylesheet">
+<link href="/assets/39ec0169/css/align-logout-button.css?v=1640860645" rel="stylesheet">
+<link href="/assets/39ec0169/css/jumbotron.css?v=1640860645" rel="stylesheet">
+<link href="/assets/d774ebb4/styles.css?v=1640860645" rel="stylesheet">
+<link href="/assets/79f28ed2/css/AdminLTE.min.css?v=1640860645" rel="stylesheet">
+<link href="/assets/79f28ed2/css/skins/skin-blue.min.css?v=1640860645" rel="stylesheet">
+<link href="/assets/5a958ab4/css/fixMenu.css?v=1640860645" rel="stylesheet">
+<link href="/css/main.min.css?1590482820" rel="stylesheet">
+<link href="/consultant/build/css/style.min.css?v=1582800832" rel="stylesheet">
+<link href="/assets/5b9bbd10/build/css/intlTelInput.css?v=1640860645" rel="stylesheet">
+<style>
+            html, body, h1, h2, h3, h4, h5, h6
+            {
+                font-family: 'ubuntu';
+            }
+        </style>
+<script async="" src="https://mc.yandex.ru/metrika/tag.js"></script><script src="/js/invoice/customInvoice.js?v=1537178408"></script>
+<script>window.depdrop_d0a5acfa = {"depends":["child_id"],"placeholder":"Выбрать...","loadingText":"Загрузка...","url":"\/merchant_admin\/invoice\/get-services"};
+
+var app = {"env":{"mode":{"env":"dev","debug":false},"url":{"frontend":"https:\/\/cabinet.test.wooppay.com\/","backend":"http:\/\/admin.cabinet\/","api":"http:\/\/api.cabinet\/"}},"api":{"defaultVersion":"v1"}};
+(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(66778639, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true,
+        userParams: {login: "killbill", UserID: 361172}
+    })</script>		</head>
+		<body class="skin-blue sidebar-mini">
+        <span id="go_to_top"></span>
+		
+<div class="wrapper">
+	<header class="main-header">
+		
+<!-- Logo -->
+<a href="/merchant_admin">
+    <!-- mini logo for sidebar mini 50x50 pixels -->
+    <style>
+        .skin-blue .main-header .logo {
+            background-color: #222d32;
+            color: #fff;
+            border-bottom: 0 solid transparent;
+        }
+    </style>
+    <span class="logo-mini"></span>
+    <!-- logo for regular state and mobile devices -->
+    <span>
+		<b>
+			</b></span></a><b><a href="/merchant_admin" class="wpLogoBootstrap"></a>
+			<style>
+				.wpLogoBootstrap{ background: url('/images/logo/logo.svg'); width:200px; height: 40px; position: absolute; display: block; background-size: 200px; left: 12px; top: 5px;     -webkit-transition: -webkit-transform .3s ease-in-out,all .3s ease-in-out;
+					-moz-transition: -moz-transform .3s ease-in-out,all .3s ease-in-out;                -o-transition: -o-transform .3s ease-in-out,all .3s ease-in-out;                transition: transform .3s ease-in-out,all .3s ease-in-out; }
+				.sidebar-collapse .wpLogoBootstrap{background-position: 0 -50px; left: 2px;  top: 11px;}
+				@media (max-width: 767px){
+					.sidebar-open .wpLogoBootstrap{top:56px}
+				}
+			</style>
+        </b>
+	
+
+
+<!-- Header Navbar -->
+<nav class="navbar navbar-static-top" role="navigation">
+    <!-- Sidebar toggle button-->
+    <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+        <span class="sr-only">Toggle navigation</span>
+    </a>
+
+	<!-- Navbar Right Menu -->
+	<div class="navbar-custom-menu">
+		<ul class="nav navbar-nav">
+							<li style="line-height: 50px; color: #fff; padding: 0 20px;">
+					579 557 857.32 тенге				</li>
+				<li class="dropdown user user-menu">
+					<a href="javascript:;" style="background: transparent!important; cursor: default!important;" class="dropdown-toggle" data-toggle="dropdown">
+						<img class="user-image" src="https://static.test.wooppay.com/avatar/11566982593.11139x100.png" alt="Avatar">						<span class="hidden-xs">killbill</span>
+					</a>
+				</li>
+						<!-- User Account Menu -->
+							<li class="dropdown user user-menu">
+					<a class="logout fa fa-power-off" href="/welcome/site/logout" title="Выход" data-method="post" style="background-color:#3c8dbc; border:none"></a>				</li>
+					</ul>
+	</div>
+</nav>	</header>
+
+	<!-- Left side column. contains the logo and sidebar -->
+	<aside class="main-sidebar">
+		<!-- sidebar: style can be found in sidebar.less -->
+		<section class="sidebar">
+			<!-- Sidebar user panel (optional) -->
+						<!-- Sidebar Menu -->
+			<ul class="sidebar-menu"><li class="header">
+Кабинет администратора мерчантов
+</li>
+<li><a href="/merchant_admin/operation/history"><i class="fa fa-history"></i><span class="treeview-menu-item-container">История</span></a></li>
+<li><a href="/merchant_admin/invoice/create"><i class="fa fa-list-alt"></i><span class="treeview-menu-item-container">Ручное выставление счёта</span></a></li>
+<li><a href="/merchant_admin/operation/money-movement"><i class="fa fa-info-circle"></i><span class="treeview-menu-item-container">Движение средств</span></a></li>
+<li class="active"><a href="/merchant_admin/invoice/customize"><i class="fa fa-image"></i><span class="treeview-menu-item-container">Стилизация инвойса</span></a></li>
+<li><a href="/merchant_admin/profile/settings"><i class="fa fa-cog"></i><span class="treeview-menu-item-container">Настройки</span></a></li>
+<li><a href="/#"><i class="fa fa-pie-chart"></i><span class="treeview-menu-item-container">Статистика</span><i class="fa fa-angle-left pull-right"></i></a>
+<ul class="treeview-menu treeview-menu-item-container">
+<li><a href="/#"><i class="fa fa-credit-card"></i><span class="treeview-menu-item-container">Платежи</span><i class="fa fa-angle-left pull-right"></i></a>
+<ul class="treeview-menu treeview-menu-item-container">
+<li><a href="/merchant_admin/payment/chart?type=sales"><i class="fa fa-shopping-cart"></i><span class="treeview-menu-item-container">Продажи</span></a></li>
+<li><a href="/merchant_admin/payment/chart?type=average_receipt"><i class="fa fa-industry"></i><span class="treeview-menu-item-container">Средний чек</span></a></li>
+<li><a href="/merchant_admin/payment/chart?type=conversion"><i class="fa fa-dollar"></i><span class="treeview-menu-item-container">Конверсия</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="/merchant_admin/employee/index"><i class="fa fa-address-card"></i><span class="treeview-menu-item-container">Сотрудники</span></a></li></ul><ul id="question_button" class="sidebar-menu">
+              <li onclick="ym(66778639,'reachGoal','to_ask')">
+                  <a href="#" data-toggle="modal" data-target="#ask_question_modal">
+                      <i class="glyphicon glyphicon-question-sign"></i>
+                      <span class="treeview-menu-item-container">Задать вопрос</span>
+                  </a>
+              </li>
+          </ul>			<!-- /.sidebar-menu -->
+		</section>
+		<!-- /.sidebar -->
+	</aside>
+
+	<div class="content-wrapper" style="min-height: 800px;">
+		<section class="content-header">
+								</section>
+		<section class="content">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="content-header">
+	<h1>Стилизация инвойса</h1>
+</div>
+<style>
+	#custom_invoice_form .uploadImgBox {
+		position: relative;
+	}
+	#custom_invoice_form input[type="file"] {
+		cursor: pointer;
+		height: 100%;
+		left: 0;
+		opacity: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+</style>
+<div class="content">
+	<div class="col-md-11 row">
+		<div class="box box-primary">
+			<div class="box-header with-border">
+				<h3 class="box-title">Сервис</h3>
+
+				<div class="box-tools pull-right">
+					<button class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Свернуть"><i class="fa fa-minus"></i></button>
+				</div>
+			</div>
+			<div class="box-body">
+				<form id="order-form" action="/merchant_admin/invoice/customize" method="post">
+<input type="hidden" name="_csrf-frontend" value="lwIsTvdQeXtKiQvKMynuzO3Yx_F6pEZYECKWJqWuO5T7NRUDngkOKjv4VP1gX7aj2ui3gA7KLhMoePJH1NkWwA=="><div class="form-group field-child_id">
+<label class="control-label" for="child_id">Мерчант</label>
+<select id="child_id" class="form-control" name="CustomInvoiceForm[child]">
+<option value="361172">killbill</option>
+<option value="374639">killbill_test1</option>
+<option value="374645">killbill_test2</option>
+<option value="374647">killbill_test3</option>
+<option value="374651">killbill_test4</option>
+<option value="374657">killbill_test5</option>
+<option value="374659">killbill_test6</option>
+<option value="374660">killbill_test7</option>
+<option value="374661">killbill_test8</option>
+<option value="374662">killbill_test9</option>
+<option value="374666">killbill_test10</option>
+<option value="374703">killbill_asdfgsdfgsd</option>
+<option value="374704">killbill_asdfsdfasdfasd</option>
+<option value="374705">killbill_dsgdfgsdfgsdfgsdf</option>
+<option value="374706">killbill_sdasdfasdf</option>
+<option value="374707">killbill_asdf</option>
+<option value="374708">killbill_asdafsdfasdfasdfasdf</option>
+<option value="374709">killbill_test11</option>
+<option value="374715">killbill_test</option>
+<option value="374716">killbill_1</option>
+<option value="374717">killbill_342</option>
+<option value="374747">killbill_asdfgап</option>
+<option value="374765">killbill_test21</option>
+<option value="380648">killbill_errtryhty</option>
+<option value="382132">killbill_1807</option>
+<option value="387092">killbill_test_kill_bo</option>
+<option value="395527">killbill_bee</option>
+<option value="412615">Merch_Boris</option>
+<option value="446943">killbill_Stas</option>
+<option value="506222">killbill_killbill_invoice_button</option>
+<option value="509850">killbill_new_token</option>
+<option value="509851">killbill_new_token2</option>
+<option value="509853">killbill_new_token3</option>
+<option value="509859">killbill_1746</option>
+<option value="510902">killbill_Killius_billius</option>
+<option value="510903">killbill_KIIIIL</option>
+<option value="510905">killbill_NEW_TOKEN</option>
+<option value="510943">killbill_new_token_vova</option>
+<option value="510944">killbill_vova</option>
+<option value="510945">killbill_test_token</option>
+<option value="510946">killbill_new_tock</option>
+<option value="510951">killbill_new</option>
+<option value="510963">killbill_hello</option>
+<option value="510964">killbill_token_from_me</option>
+<option value="510965">killbill_token2</option>
+<option value="510966">killbill_token3</option>
+<option value="510969">killbill_token344</option>
+<option value="510971">killbill_new_token3333</option>
+<option value="510973">killbill_PRIVET</option>
+<option value="510978">killbill_kak_dela</option>
+<option value="510979">killbill_noviy_token</option>
+<option value="510985">killbill_vladimir</option>
+<option value="510986">killbill_dabid</option>
+<option value="510987">killbill_natasha</option>
+<option value="510988">killbill_22323</option>
+<option value="510989">killbill_killbil_token_53</option>
+<option value="511103">killbill_new_test</option>
+<option value="511205">killbill_asdasds</option>
+<option value="511206">killbill_david123</option>
+<option value="21118229">killbill_6516516516506560650650606156060</option>
+<option value="21118880">killbill_tilda_token</option>
+<option value="21118881">killbill_123133</option>
+<option value="21118995">killbill_asdasdasdasd</option>
+<option value="21119000">killbill_asdasdasdasdasdasdqw</option>
+<option value="21119048">killbill_2323</option>
+<option value="21119049">killbill_11</option>
+<option value="21119050">killbill_test_token_vova</option>
+<option value="21119053">killbill_killbill_test1</option>
+<option value="21119055">killbill_123213</option>
+<option value="21119094">killbill_4651324751</option>
+<option value="21119095">killbill_asdasasddasd</option>
+<option value="21119096">killbill_213123</option>
+<option value="21119097">killbill_test_vova_1996</option>
+<option value="21119112">killbill_test_token_vova1</option>
+<option value="21119113">killbill_kill</option>
+<option value="21119114">killbill_token</option>
+<option value="21119115">killbill_testtest</option>
+<option value="21119116">killbill_testt4e</option>
+<option value="21119117">killbill_testt4e3123</option>
+<option value="21119118">killbill_dase2131</option>
+<option value="21119120">killbill_edzs31</option>
+<option value="21119122">killbill_3123123123</option>
+<option value="21119123">killbill_tedasd</option>
+<option value="21119124">killbill_3123123123123</option>
+<option value="21119125">killbill_test3123123123123</option>
+<option value="21119126">killbill_test3123123213123123123</option>
+<option value="21119127">killbill_3123</option>
+<option value="21119129">killbill_31231231312312</option>
+<option value="21119131">killbill_dsdafas</option>
+<option value="21119132">killbill_asdasdasd</option>
+<option value="21119133">killbill_killbill_test162574</option>
+<option value="21119134">killbill_07b6f0c87d1dc9f9ab8e8543b60a419a</option>
+<option value="21119135">killbill_c76bc51d0f3ea1bcf59f0a537d213654</option>
+<option value="21119180">killbill_23255c93c2886788d8d80c3fa43d6a47</option>
+<option value="21119186">killbill_8e9cd83f2adcf2a064c2b35d3564e075</option>
+<option value="21119187">killbill_a993354f311a4179df8575ded5f81e84</option>
+<option value="21119188">killbill_7b86f36d139d8581d4b5a4f155ba431c</option>
+<option value="21119200">killbill_d2f1756e9b438ce1043255bbca5aa39e</option>
+<option value="21119205">killbill_3eb2f1a06667bfb9daba7f7effa0284b</option>
+<option value="21119208">killbill_0f0d2f5cf7dbdc532b918660f473d2ae</option>
+</select>
+
+<div class="help-block"></div>
+</div><div class="form-group field-service_name has-success">
+<label class="control-label" for="service_name">Наименование сервиса</label>
+<select id="service_name" class="form-control" name="CustomInvoiceForm[service]" data-krajee-depdrop="depdrop_d0a5acfa" aria-invalid="false" style=""><option value="">Выбрать...</option><option value="timurumurzakov">Оплата на сайте http://t.me/swimresultsbot</option><option value="invoice_test_comission">invoice_test_comission</option><option value="invoice_for_killbill">Инвойс для killbill</option><option value="aaaaaaaaaa">aaaaaaa</option><option value="654654654654">killbill4 invoice</option><option value="bevtv_invoice">Bek TV test</option><option value="batrkz">ИП Шаймаганбет Э. Д.</option><option value="vitaa">Оплата на сайте bestdoctor.kz</option><option value="mtc_k24">MTC Россия ДО L</option><option value="killbill_invoice">Инвойс лдя киллбилла</option></select>
+
+<div class="help-block"></div>
+</div></form>			</div>
+		</div>
+
+		<script>
+			function showTag(elemId, source) {
+				//if source path for picture was return from server then show img tag and set src attribute
+				//else hide img tag and remove src attribute
+				if (source !== '') {
+					$('#'+elemId).attr('src',source);
+					$('#'+elemId).css('display','block');
+				} else {
+					$('#'+elemId).attr('src','');
+					$('#'+elemId).css('display','none');
+				}
+			}
+		</script>
+
+		
+		
+		<div class="box box-primary" id="custom_invoice_block" style="display: block;">
+			<form id="custom_invoice_form" action="/merchant_admin/invoice/customize" method="post" enctype="multipart/form-data">
+<input type="hidden" name="_csrf-frontend" value="lwIsTvdQeXtKiQvKMynuzO3Yx_F6pEZYECKWJqWuO5T7NRUDngkOKjv4VP1gX7aj2ui3gA7KLhMoePJH1NkWwA=="><div class="form-group field-custominvoiceform-service has-success">
+
+<input type="hidden" id="custominvoiceform-service" class="form-control" name="CustomInvoiceForm[service]" value="vitaa" aria-invalid="false">
+
+<div class="help-block"></div>
+</div><div class="form-group field-custominvoiceform-child has-success">
+
+<input type="hidden" id="custominvoiceform-child" class="form-control" name="CustomInvoiceForm[child]" value="killbill" aria-invalid="false">
+
+<div class="help-block"></div>
+</div>	<div class="box-body">
+		<div class="form-group">
+			<div class="form-group field-custominvoiceform-backgroundcolor has-error">
+<label class="control-label" for="custominvoiceform-backgroundcolor">Фоновый цвет</label>
+<!--[if lt IE 10]>
+<input type="text" id="custominvoiceform-backgroundcolor" class="form-control spectrum-input" name="CustomInvoiceForm[backGroundColor]">
+<br><div class="alert alert-warning">It is recommended you use an upgraded browser to display the color control properly.</div>
+<![endif]--><!--[if gt IE 9]-->
+<div class="spectrum-group input-group input-group-html5 kv-type-color is-bs3"><span id="custominvoiceform-backgroundcolor-cont" class="input-group-addon"><input type="color" id="custominvoiceform-backgroundcolor-source" class="spectrum-source form-control-color" name="custominvoiceform-backgroundcolor-source"></span><input type="text" id="custominvoiceform-backgroundcolor" class="form-control spectrum-input" name="CustomInvoiceForm[backGroundColor]" style="" aria-invalid="true"></div>
+<!--[endif]-->
+
+<div class="help-block">Значение «Фоновый цвет» должно содержать 7 символов.</div>
+</div>		</div>
+		<hr>
+		<div class="mailbox-attachments clearfix">
+			<div class="form-group">
+				<div class="col-md-4">
+					<div class="uploadImgBox">
+							<span class="mailbox-attachment-icon has-img" id="logo_img_preview" style="border:1px solid #eee">
+								<img class="thumb" src="" id="service_logo" style="display: none" width="140px" height="140px">
+							</span>
+						<div class="mailbox-attachment-info">
+							<div class="mailbox-attachment-name">
+								<i class="fa fa-camera"></i> Логотип								<div class="form-group field-logo has-success">
+
+<input type="hidden" name="CustomInvoiceForm[logo]" value=""><input type="file" id="logo" name="CustomInvoiceForm[logo]" style="margin-top:10px" aria-invalid="false">
+
+<div class="help-block"></div>
+</div>								<div class="form-group field-logo_url has-success">
+
+<input type="hidden" id="logo_url" class="form-control" name="CustomInvoiceForm[logoUrl]" aria-invalid="false">
+
+<div class="help-block"></div>
+</div>							</div>
+						</div>
+					</div>
+					<div class="mailbox-attachment-info">
+						<div class="logo">
+							<a href="javascript://;" id="remove_logo" class="fa fa-remove"> Удалить</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<p class="help-block">
+						Картинка 140*140px в формате PNG или JPEG, находится слева от формы оплаты <br><br>
+						При отсутствии логотипа в качестве него на странице оплаты используется аватар из вашего профиля					</p>
+				</div>
+				<br style="clear: both">
+			</div>
+			<hr>
+			<div class="form-group">
+				<div class="col-md-4">
+					<div class="uploadImgBox">
+							<span class="mailbox-attachment-icon has-img" id="background_img_preview" style="border:1px solid #eee">
+								<img class="thumb" src="" id="service_background" style="display: none;" width="140px" height="140px">
+							</span>
+						<div class="mailbox-attachment-info ">
+							<div class="mailbox-attachment-name">
+								<i class="fa fa-camera"></i> Фоновое изображение								<div class="form-group field-background has-success">
+
+<input type="hidden" name="CustomInvoiceForm[backGroundImage]" value=""><input type="file" id="background" name="CustomInvoiceForm[backGroundImage]" style="margin-top:10px" aria-invalid="false">
+
+<div class="help-block"></div>
+</div>								<div class="form-group field-background_url has-success">
+
+<input type="hidden" id="background_url" class="form-control" name="CustomInvoiceForm[backGroundImageUrl]" aria-invalid="false">
+
+<div class="help-block"></div>
+</div>							</div>
+						</div>
+					</div>
+					<div class="mailbox-attachment-info">
+						<div class="background">
+							<a href="javascript://;" id="remove_background" class="fa fa-remove"> Удалить</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<p class="help-block">
+						Картинка 1920*1080px в формате PNG или JPEG, находится позади формы оплаты					</p>
+				</div>
+				<br style="clear: both">
+			</div>
+			<hr>
+			<div class="form-group">
+				<div class="col-md-4">
+					<div class="uploadImgBox">
+							<span class="mailbox-attachment-icon has-img" id="banner_img_preview" style="border:1px solid #eee">
+								<img class="thumb" src="" id="service_banner" style="display: none;" width="140px" height="140px">
+							</span>
+						<div class="mailbox-attachment-info">
+							<div class="mailbox-attachment-name">
+								<i class="fa fa-camera"></i> Нижний баннер								<div class="form-group field-banner has-success">
+
+<input type="hidden" name="CustomInvoiceForm[banner]" value=""><input type="file" id="banner" name="CustomInvoiceForm[banner]" style="margin-top:10px" aria-invalid="false">
+
+<div class="help-block"></div>
+</div>								<div class="form-group field-banner_url has-success">
+
+<input type="hidden" id="banner_url" class="form-control" name="CustomInvoiceForm[bannerUrl]" aria-invalid="false">
+
+<div class="help-block"></div>
+</div>							</div>
+						</div>
+					</div>
+					<div class="mailbox-attachment-info">
+						<div class="banner">
+							<a href="javascript://;" id="remove_banner" class="fa fa-remove"> Удалить</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<p class="help-block">
+						Картинка 960*260px в формате PNG или JPEG, находится под формой оплаты					</p>
+				</div>
+				<br style="clear: both">
+			</div>
+		</div>
+	</div>
+	<div class="box-footer">
+		<button type="submit" id="submit_invoice_customization" class="btn btn-primary" style="margin-left: 10px;" onclick="ym(66778639,'reachGoal','invoice_style_save')">Cохранить</button>		<button type="button" id="preview_btn" class="btn btn-info" style="margin:10px" onclick="getInvoicePreviewPage(); ym(66778639,'reachGoal','invoice_style_preveiw')">Предпросмотр</button>		<a class="btn btn-default" href="/merchant_admin/operation/history" style="margin:10px" onclick="ym(66778639,'reachGoal','invoice_style_exit')">Уйти без сохранения</a>
+			</div>
+</form>
+
+<script>
+	function handleFileSelect(evt) {
+		try {
+			var file = evt.target.files; // FileList object
+			var f = file[0];
+			var reader = new FileReader();
+			// Closure to capture the file information.
+			reader.onload = (function (theFile) {
+				return function (e) {
+					// Render thumbnail.
+					$('#service_'+evt.target.id).attr('src',e.target.result);
+					$('#service_'+evt.target.id).css('display','block');
+				};
+			})(f);
+			// Read in the image file as a data URL.
+			reader.readAsDataURL(f);
+		} catch (error) {
+			console.log(error);
+		}
+	}
+	document.getElementById('logo').addEventListener('change', handleFileSelect, false);
+	document.getElementById('background').addEventListener('change', handleFileSelect, false);
+	document.getElementById('banner').addEventListener('change', handleFileSelect, false);
+
+	function removeImage(e) {
+		var targetClass = e.target.parentNode.className;
+		var url = $('#service_'+targetClass).attr('src');
+		$.ajax({
+			url: '/partner/invoice/customize?url=' + url,
+			beforeSend: function () {
+				try {
+					if (url.substring(0,11) !== 'data:image/') {
+						$('#'+targetClass+'_url').val(url);
+					}
+					$('#'+targetClass).val('');
+					$('#service_'+targetClass).attr('src','');
+					$('#service_'+targetClass).css('display','none');
+				} catch (error) {
+					console.log(error);
+				}
+			},
+			success: function (response) {},
+		});
+		return false;
+	}
+</script>
+		</div>
+	</div>
+<!--    <div class="col-md-3">
+        <div class="box box-primary">
+            <div class="box-header with-border">
+                <h3 class="box-title">Исходные файлы</h3>
+
+                <div class="box-tools pull-right">
+                    <button class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse"><i class="fa fa-minus"></i></button>
+                </div>
+            </div>
+            <div class="box-body">
+                <a href="/themes/wooppay_5/admin/woopGfx/custom_invoice_PSD.zip"><i class="fa fa-download"></i> Скачать PSD</a>
+            </div>
+        </div>
+    </div>-->
+</div>
+<br style="clear: both;">
+                    <div class="modal fade" id="ask_question_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary">
+                <h3 class="modal-title" id="exampleModalLabel">Обращение</h3>
+            </div>
+            <form id="send_question_form" action="/merchant_admin/profile/send-question" method="post">
+<input type="hidden" name="_csrf-frontend" value="lwIsTvdQeXtKiQvKMynuzO3Yx_F6pEZYECKWJqWuO5T7NRUDngkOKjv4VP1gX7aj2ui3gA7KLhMoePJH1NkWwA==">
+            <div class="modal-body" id="question_form_container">
+	            <div class="modal-body__messenger-list text-center">
+	<h4>Вы можете связаться с нами в мессенджерах:</h4>
+	<ul class="list-unstyled list-inline padding-top-sm">
+		<li class="list-inline-item"><a target="_blank" href="https://t.me/wooppay_support"><i class="fa fa-telegram fa-3x"></i></a></li>
+		<li class="list-inline-item"><a target="_blank" href="https://wa.me/77710151515"><i class="fa fa-whatsapp fa-3x"></i></a></li>
+	</ul>
+</div>
+<hr>
+<div class="modal-body__contact-list text-center">
+	<h4>По контактам:</h4>
+	<ul class="list-unstyled">
+		<li><a href="mailto:spp@wooppay.com">spp@wooppay.com</a></li>
+	</ul>
+</div>
+
+                <hr>
+                <div class="modal-body__question-form">
+                    <h4 class="text-center">Или заполнить форму:</h4>
+                    <div class="form-group field-handling-name required">
+<label class="control-label" for="handling-name">Имя</label>
+<input type="text" id="handling-name" class="form-control" name="Handling[name]" aria-required="true">
+
+<div class="help-block"></div>
+</div><div class="form-group field-handling-phone required">
+<label class="control-label" style="display:table;" for="handling-phone">Номер телефона</label>
+<div class="iti iti--allow-dropdown iti--separate-dial-code"><div class="iti__flag-container"><div class="iti__selected-flag" role="combobox" aria-owns="country-listbox" aria-expanded="false" tabindex="0" title="Kazakhstan (Казахстан): +7" aria-activedescendant="iti-item-kz"><div class="iti__flag iti__kz"></div><div class="iti__selected-dial-code">+7</div><div class="iti__arrow"></div></div><ul class="iti__country-list iti__hide" id="country-listbox" role="listbox"><li class="iti__country iti__standard iti__active" tabindex="-1" id="iti-item-kz" role="option" data-dial-code="7" data-country-code="kz" aria-selected="true"><div class="iti__flag-box"><div class="iti__flag iti__kz"></div></div><span class="iti__country-name">Kazakhstan (Казахстан)</span><span class="iti__dial-code">+7</span></li><li class="iti__country iti__standard" tabindex="-1" id="iti-item-ru" role="option" data-dial-code="7" data-country-code="ru"><div class="iti__flag-box"><div class="iti__flag iti__ru"></div></div><span class="iti__country-name">Russia (Россия)</span><span class="iti__dial-code">+7</span></li><li class="iti__country iti__standard" tabindex="-1" id="iti-item-tj" role="option" data-dial-code="992" data-country-code="tj"><div class="iti__flag-box"><div class="iti__flag iti__tj"></div></div><span class="iti__country-name">Tajikistan</span><span class="iti__dial-code">+992</span></li><li class="iti__country iti__standard" tabindex="-1" id="iti-item-ua" role="option" data-dial-code="380" data-country-code="ua"><div class="iti__flag-box"><div class="iti__flag iti__ua"></div></div><span class="iti__country-name">Ukraine (Україна)</span><span class="iti__dial-code">+380</span></li><li class="iti__country iti__standard" tabindex="-1" id="iti-item-uz" role="option" data-dial-code="998" data-country-code="uz"><div class="iti__flag-box"><div class="iti__flag iti__uz"></div></div><span class="iti__country-name">Uzbekistan (Oʻzbekiston)</span><span class="iti__dial-code">+998</span></li></ul></div><input type="tel" id="handling-phone" class="form-control" name="Handling[phone]" autocomplete="off" aria-required="true" style="padding-left: 74px;" placeholder="771 000 9998"></div>
+
+<div class="help-block"></div>
+</div><div class="form-group field-handling-message required">
+<label class="control-label" for="handling-message">Текст обращения</label>
+<textarea id="handling-message" class="form-control" name="Handling[message]" style="max-width: 100%;min-width:100%;min-height: 80px;" aria-required="true"></textarea>
+
+<div class="help-block"></div>
+</div><div class="form-group field-handling-login required">
+
+<input type="hidden" id="handling-login" class="form-control" name="Handling[login]" value="killbill">
+
+<div class="help-block"></div>
+</div>                </div>
+            </div>
+            <div class="modal-footer" style="background-color: #fff">
+                <button type="submit" id="question_form_submit_btn" class="btn btn-primary" onclick="ym(66778639,'reachGoal','to_send')">Отправить</button>                <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>            </div>
+            </form>        </div>
+    </div>
+</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer class="main-footer" style="padding-bottom: 30px; padding-top: 10px;">
+		<div class="pull-left">
+    <div class="pull-right hidden-xs"></div>
+	<strong>WOOPPAY © 2012-2022</strong>
+</div>	</footer>
+</div>
+
+<!-- Yandex.Metrika counter -->
+<noscript><div><img src="https://mc.yandex.ru/watch/66778639"; style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script src="/assets/c70855f0/jquery.js?v=1640860636"></script>
+<script src="/assets/bd0905b/yii.js?v=1640860636"></script>
+<script src="/assets/bd0905b/yii.validation.js?v=1640860636"></script>
+<script src="/assets/42e41e00/js/dependent-dropdown.min.js?v=1640863997"></script>
+<script src="/assets/765cd03/js/depdrop.min.js?v=1640863997"></script>
+<script src="/assets/7881fa57/js/kv-widgets.min.js?v=1640860636"></script>
+<script src="/assets/bd0905b/yii.activeForm.js?v=1640860636"></script>
+<script src="/assets/91fe4f70/js/spectrum.min.js?v=1641358495"></script>
+<script src="/assets/91fe4f70/js/spectrum-kv.min.js?v=1641358495"></script>
+<script src="/assets/39ec0169/js/function.js?v=1640860645"></script>
+<script src="/assets/39ec0169/js/scripts.js?v=1640860645"></script>
+<script src="/assets/25280ee9/js/bootstrap.js?v=1640860636"></script>
+<script src="/assets/79f28ed2/js/app.min.js?v=1640860645"></script>
+<script src="/assets/5a958ab4/js/sidebarToggle.js?v=1640860645"></script>
+<script src="/assets/5b9bbd10/build/js/utils.js?v=1640860645"></script>
+<script src="/assets/5b9bbd10/build/js/intlTelInput-jquery.js?v=1640860645"></script>
+<script>jQuery(function ($) {
+jQuery&&jQuery.pjax&&(jQuery.pjax.defaults.maxCacheLength=0);
+if (jQuery('#service_name').data('depdrop')) { jQuery('#service_name').depdrop('destroy'); }
+jQuery('#service_name').depdrop(depdrop_d0a5acfa);
+jQuery('#service_name').on('depdrop:change', function (event, id, value, count) {if (count == 1) {$("#service_name").change();}});
+
+jQuery('#order-form').yiiActiveForm([{"id":"custominvoiceform-child","name":"child","container":".field-child_id","input":"#child_id","validate":function (attribute, value, messages, deferred, $form) {yii.validation.string(value, messages, {"message":"Значение «Мерчант» должно быть строкой.","max":256,"tooLong":"Значение «Мерчант» должно содержать максимум 256 символов.","skipOnEmpty":1});}},{"id":"custominvoiceform-service","name":"service","container":".field-service_name","input":"#service_name","validate":function (attribute, value, messages, deferred, $form) {yii.validation.string(value, messages, {"message":"Значение «Наименование сервиса» должно быть строкой.","max":256,"tooLong":"Значение «Наименование сервиса» должно содержать максимум 256 символов.","skipOnEmpty":1});}}], []);
+$('#service_name').on('change', function () {
+					var service = $('#service_name').val();
+					var merchant = '';
+					merchant = $('#child_id option:selected').text();//get merchant name in case of merchant has children subjects
+					if (merchant === '') {
+						merchant = $('#child_id').val();//else get merchant name when merchant doesn't have children subjects
+					}
+					if (service !== '') {
+						$.ajax({
+							url: '/service/get-customization?serviceName='+service+'&merchant='+merchant,
+							type: 'GET',
+							dataType: 'json',
+							beforeSend: function () {
+								return true;
+							},
+							success: function (response) {
+								try {
+									var data = JSON.parse(response);
+	
+									showTag('service_logo',data.logo);
+									showTag('service_background',data.bg_image);
+									showTag('service_banner',data.bg_banner);
+	
+									$('#custominvoiceform-backgroundcolor').val(data.bg_color);
+									$('#custominvoiceform-backgroundcolor').change();
+									$('#custom_invoice_block').css('display','block');
+									$('#custominvoiceform-service').val(service);
+									$('#custominvoiceform-child').val(merchant);
+								} catch (error) {
+									console.log(error);
+								}
+							},
+							complete: function () {}
+						});
+					} else {
+						$('#custom_invoice_block').css('display','none');
+					}
+				});
+kvInitHtml5('#custominvoiceform-backgroundcolor','#custominvoiceform-backgroundcolor-source');
+jQuery('#custom_invoice_form').yiiActiveForm([{"id":"custominvoiceform-service","name":"service","container":".field-custominvoiceform-service","input":"#custominvoiceform-service","validate":function (attribute, value, messages, deferred, $form) {yii.validation.string(value, messages, {"message":"Значение «Наименование сервиса» должно быть строкой.","max":256,"tooLong":"Значение «Наименование сервиса» должно содержать максимум 256 символов.","skipOnEmpty":1});}},{"id":"custominvoiceform-child","name":"child","container":".field-custominvoiceform-child","input":"#custominvoiceform-child","validate":function (attribute, value, messages, deferred, $form) {yii.validation.string(value, messages, {"message":"Значение «Мерчант» должно быть строкой.","max":256,"tooLong":"Значение «Мерчант» должно содержать максимум 256 символов.","skipOnEmpty":1});}},{"id":"custominvoiceform-backgroundcolor","name":"backGroundColor","container":".field-custominvoiceform-backgroundcolor","input":"#custominvoiceform-backgroundcolor","validate":function (attribute, value, messages, deferred, $form) {yii.validation.string(value, messages, {"message":"Значение «Фоновый цвет» должно быть строкой.","is":7,"notEqual":"Значение «Фоновый цвет» должно содержать 7 символов.","skipOnEmpty":1});}},{"id":"custominvoiceform-logo","name":"logo","container":".field-logo","input":"#logo","validate":function (attribute, value, messages, deferred, $form) {yii.validation.image(attribute, messages, {"message":"Загрузка файла не удалась.","skipOnEmpty":true,"mimeTypes":[],"wrongMimeType":"Разрешена загрузка файлов только со следующими MIME-типами: .","extensions":["png","jpg"],"wrongExtension":"Разрешена загрузка файлов только со следующими расширениями: png, jpg.","maxFiles":1,"tooMany":"Вы не можете загружать более 1 файла.","notImage":"Файл «{file}» не является изображением.","maxWidth":140,"overWidth":"Файл «{file}» слишком большой. Ширина не должна превышать 140 пикселей.","maxHeight":140,"overHeight":"Файл «{file}» слишком большой. Высота не должна превышать 140 пикселей."}, deferred);}},{"id":"custominvoiceform-logourl","name":"logoUrl","container":".field-logo_url","input":"#logo_url","validate":function (attribute, value, messages, deferred, $form) {yii.validation.string(value, messages, {"message":"Значение «Logo Url» должно быть строкой.","max":512,"tooLong":"Значение «Logo Url» должно содержать максимум 512 символов.","skipOnEmpty":1});}},{"id":"custominvoiceform-backgroundimage","name":"backGroundImage","container":".field-background","input":"#background","validate":function (attribute, value, messages, deferred, $form) {yii.validation.image(attribute, messages, {"message":"Загрузка файла не удалась.","skipOnEmpty":true,"mimeTypes":[],"wrongMimeType":"Разрешена загрузка файлов только со следующими MIME-типами: .","extensions":["png","jpg"],"wrongExtension":"Разрешена загрузка файлов только со следующими расширениями: png, jpg.","maxSize":10485760,"tooBig":"Файл «{file}» слишком большой. Размер не должен превышать 2 МиБ.","maxFiles":1,"tooMany":"Вы не можете загружать более 1 файла.","notImage":"Файл «{file}» не является изображением.","maxWidth":1920,"overWidth":"Файл «{file}» слишком большой. Ширина не должна превышать 1 920 пикселей.","maxHeight":1080,"overHeight":"Файл «{file}» слишком большой. Высота не должна превышать 1 080 пикселей."}, deferred);}},{"id":"custominvoiceform-backgroundimageurl","name":"backGroundImageUrl","container":".field-background_url","input":"#background_url","validate":function (attribute, value, messages, deferred, $form) {yii.validation.string(value, messages, {"message":"Значение «Back Ground Image Url» должно быть строкой.","max":512,"tooLong":"Значение «Back Ground Image Url» должно содержать максимум 512 символов.","skipOnEmpty":1});}},{"id":"custominvoiceform-banner","name":"banner","container":".field-banner","input":"#banner","validate":function (attribute, value, messages, deferred, $form) {yii.validation.image(attribute, messages, {"message":"Загрузка файла не удалась.","skipOnEmpty":true,"mimeTypes":[],"wrongMimeType":"Разрешена загрузка файлов только со следующими MIME-типами: .","extensions":["png","jpg"],"wrongExtension":"Разрешена загрузка файлов только со следующими расширениями: png, jpg.","maxFiles":1,"tooMany":"Вы не можете загружать более 1 файла.","notImage":"Файл «{file}» не является изображением.","maxWidth":960,"overWidth":"Файл «{file}» слишком большой. Ширина не должна превышать 960 пикселей.","maxHeight":260,"overHeight":"Файл «{file}» слишком большой. Высота не должна превышать 260 пикселей."}, deferred);}},{"id":"custominvoiceform-bannerurl","name":"bannerUrl","container":".field-banner_url","input":"#banner_url","validate":function (attribute, value, messages, deferred, $form) {yii.validation.string(value, messages, {"message":"Значение «Banner Url» должно быть строкой.","max":512,"tooLong":"Значение «Banner Url» должно содержать максимум 512 символов.","skipOnEmpty":1});}}], []);
+$('.fa-remove').click(removeImage);
+$('#child_id').change();
+ym(66778639,'reachGoal','style')
+var isMobile = /Android.+Mobile|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);   
+        if (isMobile) {
+            $('#question_button').attr('data-toggle', 'offcanvas');
+        }
+(function ($) {
+    "use strict";
+    $('#handling-phone').intlTelInput({"onlyCountries":["kz","ru","uz","ua","tj"],"nationalMode":false,"separateDialCode":true});
+})(jQuery);
+(function ($) {
+    "use strict";
+    $('#handling-phone')
+    .parents('form')
+    .on('submit', function() {
+        $('#handling-phone')
+        .val($('#handling-phone')
+        .intlTelInput('getNumber'));
+    });
+})(jQuery);
+$('#handling-phone').on('input', function() {
+    $(this).val($(this).val().replace(/[A-Za-zА-Яа-яЁё]/, ''))
+});
+jQuery('#send_question_form').yiiActiveForm([{"id":"handling-name","name":"name","container":".field-handling-name","input":"#handling-name","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Необходимо заполнить «Имя»."});yii.validation.string(value, messages, {"message":"Значение «Имя» должно быть строкой.","max":64,"tooLong":"Значение «Имя» должно содержать максимум 64 символа.","skipOnEmpty":1});}},{"id":"handling-phone","name":"phone","container":".field-handling-phone","input":"#handling-phone","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Необходимо заполнить «Номер телефона»."});yii.validation.string(value, messages, {"message":"Значение «Номер телефона» должно быть строкой.","max":64,"tooLong":"Значение «Номер телефона» должно содержать максимум 64 символа.","skipOnEmpty":1});}},{"id":"handling-message","name":"message","container":".field-handling-message","input":"#handling-message","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Необходимо заполнить «Текст обращения»."});yii.validation.string(value, messages, {"message":"Значение «Текст обращения» должно быть строкой.","max":512,"tooLong":"Значение «Текст обращения» должно содержать максимум 512 символов.","skipOnEmpty":1});}},{"id":"handling-login","name":"login","container":".field-handling-login","input":"#handling-login","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Необходимо заполнить «Login»."});yii.validation.string(value, messages, {"message":"Значение «Login» должно быть строкой.","max":64,"tooLong":"Значение «Login» должно содержать максимум 64 символа.","skipOnEmpty":1});}}], []);
+$('#send_question_form').on('beforeSubmit', function() {
+                var data = $('#send_question_form').serialize();
+                $.ajax({
+                    url: $('#send_question_form').attr('action'),
+                    type: 'POST',
+                    data: data,
+                    success: function (data) {
+                        $('.sending-status').remove();
+                        if (data.success) {
+                            $('#send_question_form').trigger('reset');                        
+                            $('#question_form_container').append('<h4 class="bg-success text-center sending-status">'+ data.message +'</h4>');                            
+                        } else {                            
+                            $('#question_form_container').append('<h4 class="bg-danger text-center sending-status" style="word-break: break-word">'+ data.message +'</h4>');
+                        }
+                    },
+                    error: function(jqXHR, errMsg) {                        
+                        alert(errMsg);
+                    }
+                 });
+                 return false; // prevent default submit
+            });
+});</script>		
+		
+		</body></html>
